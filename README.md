@@ -15,10 +15,11 @@ From practising mobile-first, responsive design to including accessibility. Colo
 This will be a project to showcase my Front-End capabilities.
 
 ### Pre-Project Thoughts
-I've always seen a modern house in a forest as a cool thing. With the black and slate grey in the middle of forest greens and browns. 
-I've seen a few offices go for this look by having a plant-rich setting and including the same colours in their designs.
-
-What if I can capture this aesthetic and put it into a website? Have this be my little cosy zen corner of the internet forest?
+I've always seen a Japanese or modern house in a forest as a cool thing. With black and grey in the middle of forest greens and browns. 
+A Japanese Zen garden. Wood browns and stone greys with deep greens from the plants all next to a clear stream gently flowing.
+Why not have this be my little cosy zen corner of the internet forest?
+Can I capture a feeling, an image and an aesthetic and translate that into a website?
+A lofty goal it seems. There is only one way to find out. 
 
 # Features
 
