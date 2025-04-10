@@ -15,7 +15,7 @@
 
 ### This is a challenge
 Not only do I want to create an awesome-looking portfolio but, most importantly, I want to practice and learn while I engage with this project. 
-From practising a mobile-first responsive design to including accessibility. Colour theory and UI fundamentals. Next.js, React and its components. 
+From practising a mobile-first responsive design to including accessibility. Colour theory and UI fundamentals, and React.
 
 ### Pre-Project Questions and Thoughts
 
