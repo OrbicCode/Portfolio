@@ -13,23 +13,16 @@
 
 ## Overview
 
-### This is a challenge
-Not only do I want to create an awesome-looking portfolio but, most importantly, I want to practice and learn while I engage with this project. 
-From practising a mobile-first responsive design to including accessibility. Colour theory and UI fundamentals, and React.
+This all began with the idea that I could take an image as inspiration and try to use that as the basis for a website. I had an idea for a Japanese-style zen garden 🪴 with a wooden porch 🪵. I wanted to take the forest and moss greens 🌳, stone and slate greys 🗿 and brown-reddish wood to use as my colour palette. So to see the image come to life I generated a few with AI and came up with the image you see above. 
 
-### Pre-Project Questions and Thoughts
+## Design 
 
-Can I capture a feeling, a place, or an aesthetic and translate that into a website? 🤔
+[Figma Design](https://www.figma.com/design/ux5LG8SAabUALNSWP182eF/Portfolio?node-id=0-1&m=dev&t=4lpunGVu2i7VdTE3-1)
 
-Imagine taking a breath in a serene Japanese Zen garden 🪴 with slate grey stone tiles and bright grey gravel, meditating 🧘 on a dark brown wooden porch, surrounded by striking deep forest greens 🌲. The scent of incense merges with the natural early morning fog 🌫️ that permeates over damp moss-covered stones and into your being. Your ears tingle with the snaps and pops of the rain knocking on the leaves 🍂, stones and wooden beams.
+### Palette
 
-Can I digitise that feeling and echo it when you're checking out my projects or leaving a comment on a blog post? 🧐
+<img width="75%" alt="Colour Palette" src="https://github.com/user-attachments/assets/d1b21029-90a1-4e08-b81e-ae841894b213" />
 
-A lofty goal it seems. There is only one way to find out. 
-
-# Features
+## Tech
 
 
-# Design
-
-## inspiration
