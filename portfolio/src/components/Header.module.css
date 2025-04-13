@@ -1,0 +1,126 @@
+.header {
+    height: 100vh;
+    background-image: url('../assets/garden.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(15, 19, 22, 0.8);
+    background-blend-mode: overlay;
+    padding: 0 1em;
+    grid-area: head;
+    position: relative;
+}
+
+.headerTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    padding: 0.5em 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    background: var(--night);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 100%;
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+}
+
+.navOpen {
+    transform: translateX(-100%);
+}
+
+.nav ul {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.nav button {
+    font-size: 2rem;
+    padding: 1em;
+    border: none;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.burger {
+    font-size: 1.5rem;
+    color: white;
+    padding: 0.75em 0.75em 0.75em 1.25em;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+}
+
+.logo {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.logoTitle {
+    color: var(--rust);
+    text-shadow: 0px 0px 5px rgba(15, 19, 22, 0.8);
+}
+
+.profileImg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.hero {
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(15, 19, 22, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.brackets {
+    font-size: 4rem;
+    color: var(--moss);
+    margin-top: 0.5em;
+}
+
+.heroTextFlare {
+    color: var(--moss)
+}
+
+.curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: var(--jet);
+    clip-path: ellipse(50% 50% at 50% 100%);
+}

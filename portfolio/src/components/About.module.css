@@ -1,0 +1,22 @@
+.about {
+    grid-area: abou;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title {
+    position: relative;
+    align-self: center;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+    height: 20px;
+    width: 100%;
+    background: var(--rust);
+    z-index: -1;
+}
