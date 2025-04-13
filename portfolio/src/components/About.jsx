@@ -2,7 +2,7 @@ import styles from './About.module.css'
 
 export default function About() {
     return (
-        <section className={styles.about}>
+        <section id='about' className={styles.about}>
             <h2 className={styles.title}>About</h2>
             <div>
                 <h3>Journey so far</h3>
@@ -17,7 +17,8 @@ export default function About() {
                 fugiat nulla pariatur. Excepteur sint occaecat 
                 cupidatat non proident, sunt in culpa qui officia 
                 deserunt mollit anim id est laborum."
-                <br></br>
+                <br />
+                <br />
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam,
@@ -43,7 +44,8 @@ export default function About() {
                 fugiat nulla pariatur. Excepteur sint occaecat 
                 cupidatat non proident, sunt in culpa qui officia 
                 deserunt mollit anim id est laborum."
-                <br></br>
+                <br />
+                <br />
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Ut enim ad minim veniam,

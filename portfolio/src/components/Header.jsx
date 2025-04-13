@@ -12,7 +12,7 @@ export default function Header() {
     }
 
     return (
-        <header className={styles.header}>
+        <header id='home' className={styles.header}>
             <div className={styles.headerTop}>
                 <div className={styles.logo}>
                     <img src={profileImage} alt="" className={styles.profileImg} />
@@ -27,8 +27,8 @@ export default function Header() {
                         <i className="fa-solid fa-xmark"></i>
                     </button>
                     <ul>
-                        <li>{'< Home >'}</li>
-                        <li>{'< About >'}</li>
+                        <li><a href='#home' onClick={toggleNav}>{'< Home >'}</a></li>
+                        <li><a href="#about" onClick={toggleNav}>{'< About >'}</a></li>
                         <li>{'< Expertise >'}</li>
                         <li>{'< Work >'}</li>
                         <li>{'< Contact >'}</li>
