@@ -1,7 +1,17 @@
 .layout {
     display: grid;
-    grid-template-areas:
-        "head head head"
-        ".... abou ....";
-    grid-template-columns: 1em auto 1em;
+    grid-template-areas: 
+        "head"
+        "abou";
+    grid-template-columns: 1em 1fr 1em;
+}
+
+.header {
+    grid-area: head;
+    grid-column: 1 / -1;
+}
+
+.about {
+    grid-area: abou;
+    grid-column: 2 / span-1
 }

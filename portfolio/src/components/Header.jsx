@@ -12,7 +12,7 @@ export default function Header() {
     }
 
     return (
-        <header id='home' className={styles.header}>
+        <header id='home' className={`${styles.header} header`}>
             <div className={styles.headerTop}>
                 <div className={styles.logo}>
                     <img src={profileImage} alt="" className={styles.profileImg} />

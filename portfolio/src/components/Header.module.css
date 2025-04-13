@@ -6,9 +6,8 @@
     background-repeat: no-repeat;
     background-color: rgba(15, 19, 22, 0.8);
     background-blend-mode: overlay;
-    padding: 0 1em;
-    grid-area: head;
     position: relative;
+    padding: 0 1em;
 }
 
 .headerTop {
@@ -33,6 +32,7 @@
     left: 100%;
     transform: translateX(0);
     transition: transform 0.4s ease;
+    z-index: 1;
 }
 
 .navOpen {
@@ -150,11 +150,11 @@
 }
 
 .brackets {
-    display: inline-block; /* Ensure the spans are treated as inline-block elements */
-    animation: float 3s ease-in-out infinite; /* Apply the floating animation */
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
 }
 
 .brackets:last-of-type {
-    display: inline-block; /* Ensure the spans are treated as inline-block elements */
-    animation: float2 3s ease-in-out infinite; /* Apply the floating animation */
+    display: inline-block;
+    animation: float2 3s ease-in-out infinite;
 }

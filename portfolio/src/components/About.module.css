@@ -1,9 +1,7 @@
 .about {
-    grid-area: abou;
     display: flex;
     flex-direction: column;
 }
-
 
 .title {
     position: relative;
@@ -16,7 +14,7 @@
     left: 10%;
     bottom: 15%;
     height: 20px;
-    width: 100%;
+    width: 105%;
     background: var(--rust);
     z-index: -1;
 }
