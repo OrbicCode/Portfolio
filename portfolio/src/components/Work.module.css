@@ -1,3 +1,21 @@
+.title {
+    position: relative;
+    z-index: 1;
+    width: fit-content;
+    margin: 1em auto;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+    height: 20px;
+    width: 105%;
+    background: var(--blue);
+    z-index: -1;
+}
+
 .workItemsContainer {
     display: flex;
     flex-direction: column;
@@ -6,7 +24,7 @@
 
 .workItem{
     background: var(--jet);
-    width: 300px;
+    max-width: 500px;
     height: 300px;
     margin-bottom: 2em;
 }

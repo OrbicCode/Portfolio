@@ -1,4 +1,29 @@
 .contact {
     text-align: center;
     background: var(--night);
+    background-image: url('../assets/mesh-1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(15, 19, 22, 0.8);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+    width: fit-content;
+    margin: 1em auto;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+    height: 20px;
+    width: 105%;
+    background: #613dc1;
+    z-index: -1;
 }

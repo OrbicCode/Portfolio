@@ -7,7 +7,7 @@ export default function Expertise() {
             <div className={styles.expertiseBoxContainer}>
                 <div className={styles.expertiseBox}>
                     <h3 className={styles.expertiseTitle}>
-                        Software
+                        <span className={styles.expertiseTitleTop}>Software</span>
                         <br />
                         Development
                     </h3>
@@ -17,7 +17,7 @@ export default function Expertise() {
                 </div>
                 <div className={styles.expertiseBox}>
                     <h3 className={styles.expertiseTitle}>
-                        Web
+                    <span className={styles.expertiseTitleTop}>Web</span>
                         <br />
                         Development
                     </h3>

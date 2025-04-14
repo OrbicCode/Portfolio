@@ -4,7 +4,7 @@ import placeholder from '../assets/garden-2.jpeg'
 export default function Work() {
     return (
         <section className={`${styles.work} work`}>
-            <h2>Work</h2>
+            <h2 className={styles.title}>Work</h2>
             <div className={styles.workItemsContainer}>
                 <div className={styles.workItem}>
                     <img src={placeholder} alt='' />

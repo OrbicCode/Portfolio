@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.about p {
+    max-width: 500px;
+}
+
 .title {
     position: relative;
     align-self: center;

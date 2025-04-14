@@ -9,10 +9,11 @@
     padding: 0 1em;
 }
 
-/* title */
-
-/* .title {
+.title {
     position: relative;
+    z-index: 1;
+    width: fit-content;
+    margin: 1em auto;
 }
 
 .title::after {
@@ -22,9 +23,9 @@
     bottom: 15%;
     height: 20px;
     width: 105%;
-    background: var(--rust);
+    background: var(--moss);
     z-index: -1;
-} */
+}
 
 .expertiseBoxContainer {
     display: flex;
@@ -37,6 +38,24 @@
     text-align: center;
     padding: 3em 1em;
     border: 3px solid white;
+}
+
+.expertiseTitleTop {
+    position: relative;
+    width: fit-content;
+    margin: 1em auto;
+    z-index: 1;
+}
+
+.expertiseTitleTop::after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    height: 15px;
+    width: 105%;
+    background: var(--blue);
+    z-index: -1;
 }
 
 .expertiseDescription {
@@ -61,4 +80,9 @@
     text-align: center;
     padding: 0.75em 1.625em;
     border: 2px solid white;
+    transition: background 1s ease-in-out;
+}
+
+.skillItem:hover {
+    background: var(--rust);
 }
