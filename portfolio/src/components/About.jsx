@@ -5,7 +5,7 @@ export default function About() {
         <section id='about' className={`${styles.about} about`}>
             <h2 className={styles.title}>About</h2>
             <div>
-                <h3>Journey so far</h3>
+                <h3 className={styles.articleTitle}>Journey so far</h3>
                 <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et
@@ -32,7 +32,7 @@ export default function About() {
                 </p>
             </div>
             <div>
-                <h3>Journey so far</h3>
+                <h3 className={styles.articleTitle}>Journey so far</h3>
                 <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et

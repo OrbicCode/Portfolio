@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-color: rgba(15, 19, 22, 0.8);
     background-blend-mode: overlay;
+    background-attachment: fixed;
     position: relative;
     padding: 0 1em;
 }

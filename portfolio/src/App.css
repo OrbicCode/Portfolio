@@ -1,17 +1,36 @@
 .layout {
     display: grid;
     grid-template-areas: 
-        "head"
-        "abou";
+        "header"
+        "about"
+        "expertise"
+        "work"
+        "contact";
     grid-template-columns: 1em 1fr 1em;
+    row-gap: 2em;
 }
 
 .header {
-    grid-area: head;
+    grid-area: header;
     grid-column: 1 / -1;
 }
 
 .about {
-    grid-area: abou;
+    grid-area: about;
+    grid-column: 2 / span-1
+}
+
+.expertise {
+    grid-area: expertise;
+    grid-column: 1 / -1
+}
+
+.work {
+    grid-area: work;
+    grid-column: 2 / span-1
+}
+
+.contact {
+    grid-area: contact;
     grid-column: 2 / span-1
 }

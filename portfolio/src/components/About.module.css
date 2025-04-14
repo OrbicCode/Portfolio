@@ -18,3 +18,19 @@
     background: var(--rust);
     z-index: -1;
 }
+
+.articleTitle {
+    position: relative;
+    width: fit-content;
+}
+
+.articleTitle::after {
+    content: "";
+    position: absolute;
+    left: 5%;
+    bottom: 8%;
+    height: 15px;
+    width: 105%;
+    background: var(--moss);
+    z-index: -1;
+}
