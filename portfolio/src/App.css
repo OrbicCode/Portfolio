@@ -17,7 +17,7 @@
 
 .about {
     grid-area: about;
-    grid-column: 2 / span-1
+    grid-column: 2 / span 1
 }
 
 .expertise {
@@ -27,10 +27,10 @@
 
 .work {
     grid-area: work;
-    grid-column: 2 / span-1
+    grid-column: 2 / span 1
 }
 
 .contact {
     grid-area: contact;
-    grid-column: 2 / span-1
+    grid-column: 1 / -1
 }
