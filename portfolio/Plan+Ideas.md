@@ -6,6 +6,7 @@
     - change all font-sizes between screens (headerTop)
 
 - Navigation
+    - hover links
 
 - About
 
@@ -22,6 +23,7 @@
 - convert skill item into component
 - convert work item into component
 - 768px navigation change ✅
+- check cursoe pointer on all
 
 - change section name to main-grid 
 
