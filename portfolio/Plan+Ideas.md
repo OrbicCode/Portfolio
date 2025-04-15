@@ -5,16 +5,23 @@
 - Header
     - change all font-sizes between screens (headerTop)
 
+- Navigation
+
+- About
+
+- Expertise
+
+- Work
+
+- Contact
+
 - Find best way to approach the layout ✅
-- convert navigation into component
+- convert navigation into component ✅
 - match the navigation close button to the burger menu button
 - convert expertise item into component
 - convert skill item into component
 - convert work item into component
-- 768px navigation change
-- 480px media changes
-- 768 media changes
-- 1024 media changes
+- 768px navigation change ✅
 
 - change section name to main-grid 
 
@@ -30,3 +37,5 @@
 ## Ideas
 
 - check if the font awesome approach is ok or if I need to convert to the react version
+
+- add linear-gradients before and after the background images if static 
