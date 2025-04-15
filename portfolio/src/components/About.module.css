@@ -4,12 +4,14 @@
 }
 
 .about p {
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 
 .title {
     position: relative;
     align-self: center;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 .title::after {
