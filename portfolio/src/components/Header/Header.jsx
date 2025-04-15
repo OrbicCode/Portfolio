@@ -1,14 +1,13 @@
-import { useRef } from 'react'
+import { useState } from 'react'
+import Navigation from '../Navigation/Navigation'
 import styles from './Header.module.css'
-import profileImage from '../assets/cross-arm-profile.jpg'
+import profileImage from '../../assets/cross-arm-profile.jpg'
 
 export default function Header() {
-    const navRef = useRef(null)
+    const [isNavOpen, setIsNavOpen] = useState(false)
 
     function toggleNav() {
-        if (navRef.current) {
-            navRef.current.classList.toggle(styles.navOpen)
-        }
+        setIsNavOpen(!isNavOpen)
     }
 
     return (
@@ -22,19 +21,12 @@ export default function Header() {
                     <button onClick={toggleNav} className={styles.burger}>
                         <i className="fa-solid fa-bars"></i>
                     </button>
-                
-                    <nav ref={navRef} className={styles.nav}>
-                        <button onClick={toggleNav}>
-                            <i className="fa-solid fa-xmark"></i>
-                        </button>
-                        <ul>
-                            <li><a href='#home' onClick={toggleNav}>{'< Home >'}</a></li>
-                            <li><a href="#about" onClick={toggleNav}>{'< About >'}</a></li>
-                            <li>{'< Expertise >'}</li>
-                            <li>{'< Work >'}</li>
-                            <li>{'< Contact >'}</li>
-                        </ul>
-                    </nav>
+
+                    <Navigation 
+                        toggleNav={toggleNav}
+                        isOpen={isNavOpen} 
+                    />
+
                 </div>
                 <div className={styles.hero}>
                     <span className={styles.brackets}>{'<>'}</span>

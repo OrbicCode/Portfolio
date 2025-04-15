@@ -1,5 +1,5 @@
 import styles from './Work.module.css'
-import placeholder from '../assets/garden-2.jpeg'
+import placeholder from '../../assets/garden-2.jpeg'
 
 export default function Work() {
     return (
