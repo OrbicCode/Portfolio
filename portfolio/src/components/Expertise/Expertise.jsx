@@ -18,7 +18,7 @@ export default function Expertise() {
     const skillItemText = [
                             "HTML", "CSS", "JavaSvript", "TypeScript", "SQL", "React",
                             "Next.js", "Node.js", "Vite", "Git", "GitHub", "Docker", "PlayWright",
-                            "AWS", "Figma"
+                            "AWS", "Figma", "Responsive Design", "Agile"
                         ]
 
     const expertiseItemEl = expertiseItemText.map((item) => {
@@ -32,7 +32,10 @@ export default function Expertise() {
     })
 
     const skillItemEl = skillItemText.map((item) => {
-        return <SkillItem text={item}/>
+        return <SkillItem 
+                    key={item}
+                    text={item}
+                />
     })
 
     return (

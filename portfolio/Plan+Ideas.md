@@ -6,27 +6,40 @@
     - change all font-sizes between screens (headerTop)
 
 - Navigation
-    - hover links
+    - hover color on links
 
 - About
+    - max-width on text
+    - flex direction change on 768px
 
 - Expertise
     - 768px flex direction change on item container
 
+- SkillItem
+
 - Work
+    - change key of workitem from index to title
+    - 1024px grid change 
+
+- WorkItem
 
 - Contact
+    - format typography
+    - format typography for different screen sizes
+    - find out how to add email link
+    - add links to different sites
 
 - General
     - Find best way to approach the layout ✅
     - convert navigation into component ✅
     - match the navigation close button to the burger menu button ✅
     - convert expertise item into component ✅
-    - convert skill item into component
-    - convert work item into component
+    - convert skill item into component ✅
+    - convert work item into component ✅
     - 768px navigation change ✅
-    - check cursoe pointer on all
-    - add text-shadow to text with pictur background
+    - check cursor pointer on all links and buttons
+    - add text-shadow to text with picture background
+    - check h heirachy 
 
     - change section layout name to main-grid 
 
