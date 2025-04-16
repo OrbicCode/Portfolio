@@ -6,8 +6,8 @@
     - change all font-sizes between screens ✅
 
 - Navigation
-    - hover color on links
-    - responsive typography 
+    - hover color on links ✅
+    - responsive typography ✅
 
 - About
     - max-width on text

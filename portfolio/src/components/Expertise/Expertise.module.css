@@ -13,7 +13,7 @@
     position: relative;
     z-index: 1;
     width: fit-content;
-    margin: 1em auto;
+    margin: 1em auto 1.5em;
 }
 
 .title::after {
@@ -35,12 +35,14 @@
 }
 
 .skillsTitle {
+    font-size: 2rem;
+    color: var(--beige);
     margin-top: 2em;
     text-align: center;
 }
 
 .skillsContainer {
-    margin-block: 2em;
+    margin: 2em 0 4em;
     display: flex;
     flex-wrap: wrap;
     gap: 2em;

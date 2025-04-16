@@ -1,17 +1,18 @@
-.about {
+.articlesContainer {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .about p {
-    /* max-width: 500px; */
+    max-width: 500px;
 }
 
 .title {
     position: relative;
     align-self: center;
     width: fit-content;
-    margin: 0 auto;
+    margin: 0 auto 1.5em;
 }
 
 .title::after {
@@ -39,4 +40,13 @@
     width: 105%;
     background: var(--moss);
     z-index: -1;
+}
+
+@media (min-width: 768px) {
+    .articlesContainer {
+        max-width: 900px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2em;
+    }
 }

@@ -2,7 +2,7 @@
     position: relative;
     z-index: 1;
     width: fit-content;
-    margin: 1em auto;
+    margin: 1em auto 2em;
 }
 
 .title::after {
@@ -20,11 +20,12 @@
     display: grid;
     grid-template-columns: minmax(auto, 600px);
     justify-content: center;
+    gap: 2em;
 }
 
 @media (min-width: 768px) {
     .workItemsContainer {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         gap: 2em;
     }
 }

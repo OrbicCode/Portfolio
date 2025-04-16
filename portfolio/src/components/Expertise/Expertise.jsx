@@ -16,7 +16,7 @@ export default function Expertise() {
     ]
 
     const skillItemText = [
-                            "HTML", "CSS", "JavaSvript", "TypeScript", "SQL", "React",
+                            "HTML", "CSS", "JavaScript", "TypeScript", "SQL", "React",
                             "Next.js", "Node.js", "Vite", "Git", "GitHub", "Docker", "PlayWright",
                             "AWS", "Figma", "Responsive Design", "Agile"
                         ]
