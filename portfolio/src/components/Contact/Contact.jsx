@@ -5,18 +5,17 @@ export default function Contact() {
         <section className={`${styles.contact} section`}>
             <div className='container'>
                 <h2 className={styles.title}>Contact</h2>
-                <h3>Available for hire</h3>
-                <p>
-                Want me to join your team?
+                <h3 className={styles.available}>Available for hire</h3>
+                <p className={styles.hook}>
+                    Let's make something cool togetther
                 <br />
-                I know I want to join yours
                 <br />
-                Drop me an email or send me a message on LinkedIn 
+                    Drop me an email or send me a message on LinkedIn 
                 </p>
-                <span>orbiccode@gmail.com</span>
+                <p className={styles.email}>orbiccode@gmail.com</p>
                 <div>
-                    <p>LinkedIn</p>
-                    <p>GitHub</p>
+                    <p className={styles.links}>LinkedIn</p>
+                    <p className={styles.links}>GitHub</p>
                 </div>
             </div>
         </section>

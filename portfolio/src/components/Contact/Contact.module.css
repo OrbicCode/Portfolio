@@ -8,13 +8,14 @@
     background-color: rgba(15, 19, 22, 0.8);
     background-blend-mode: overlay;
     background-attachment: fixed;
+    padding: 1em 0 3em;
 }
 
 .title {
     position: relative;
     z-index: 1;
     width: fit-content;
-    margin: 1em auto;
+    margin: 1em auto 1.5em;
 }
 
 .title::after {
@@ -26,4 +27,39 @@
     width: 105%;
     background: #613dc1;
     z-index: -1;
+}
+
+.available {
+    font-size: 2rem;
+}
+
+.hook {
+    font-size: 1.125rem;
+}
+
+.email {
+    font-size: 1.5rem;
+}
+
+.links {
+    font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .available {
+        font-size: 3rem;
+    }
+
+    .hook {
+        font-size: 1.375rem;
+    }
+
+    .email {
+        font-size: 2rem;
+    }
+
+    .links {
+        font-size: 1.625rem;
+        margin: 0;
+    }
 }
