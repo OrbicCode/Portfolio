@@ -3,7 +3,7 @@
 ## Plan
 
 - Header
-    - change all font-sizes between screens (headerTop)
+    - change all font-sizes between screens ✅
 
 - Navigation
     - hover color on links

@@ -14,7 +14,7 @@ export default function HeaderTop() {
     return (
         <div className={styles.headerTop}>
             <div className={styles.logo}>
-                <img src={profileImage} alt="" className={styles.profileImg} />
+                <img src={profileImage} alt="a profile picture of James O'Kane" className={styles.profileImg} />
                 <span className={styles.logoTitle}>James O'Kane</span>
             </div>
             <button onClick={toggleNav} className={styles.burger}>
