@@ -11,6 +11,7 @@
 - About
 
 - Expertise
+    - 768px flex direction change on item container
 
 - Work
 
@@ -20,11 +21,12 @@
     - Find best way to approach the layout ✅
     - convert navigation into component ✅
     - match the navigation close button to the burger menu button ✅
-    - convert expertise item into component
+    - convert expertise item into component ✅
     - convert skill item into component
     - convert work item into component
     - 768px navigation change ✅
     - check cursoe pointer on all
+    - add text-shadow to text with pictur background
 
     - change section layout name to main-grid 
 
@@ -40,5 +42,7 @@
 ## Ideas
 
 - check if the font awesome approach is ok or if I need to convert to the react version
+
+- add a random colour selection on hover of skill items
 
 - add linear-gradients before and after the background images if static 

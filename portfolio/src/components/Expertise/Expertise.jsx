@@ -1,5 +1,6 @@
 import styles from './Expertise.module.css'
 import ExpertiseItem from '../ExpertiseItem/ExpertiseItem'
+import SkillItem from '../SkillItem/SkillItem'
 
 export default function Expertise() {
 
@@ -14,43 +15,37 @@ export default function Expertise() {
         }
     ]
 
+    const skillItemText = [
+                            "HTML", "CSS", "JavaSvript", "TypeScript", "SQL", "React",
+                            "Next.js", "Node.js", "Vite", "Git", "GitHub", "Docker", "PlayWright",
+                            "AWS", "Figma"
+                        ]
+
     const expertiseItemEl = expertiseItemText.map((item) => {
         return (
             <ExpertiseItem
+                key={item.title}
                 title={item.title}
                 description={item.description}
             />
         )
     })
 
+    const skillItemEl = skillItemText.map((item) => {
+        return <SkillItem text={item}/>
+    })
+
     return (
         <section className={`${styles.expertise} section`}>
             <div className='container'>
                 <h2 className={styles.title}>Expertise</h2>
-                <div className={styles.expertiseBoxContainer}>
+                <div className={styles.expertiseItemContainer}>
                     {expertiseItemEl}
                 </div>
                 <h3 className={styles.skillsTitle}>Skills</h3>
-                <div className={styles.skillsContainer}>
-                    <div className={styles.skillItem}>
-                        <span>HTML</span>
-                    </div>
-                    <div className={styles.skillItem}>
-                        <span>CSS</span>
-                    </div>
-                    <div className={styles.skillItem}>
-                        <span>JavaScript</span>
-                    </div>
-                    <div className={styles.skillItem}>
-                        <span>TypeScript</span>
-                    </div>
-                    <div className={styles.skillItem}>
-                        <span>React</span>
-                    </div>
-                    <div className={styles.skillItem}>
-                        <span>Next.js</span>
-                    </div>
-                </div>
+                <ul className={styles.skillsContainer}>
+                    {skillItemEl}
+                </ul>
             </div>
         </section>
     )

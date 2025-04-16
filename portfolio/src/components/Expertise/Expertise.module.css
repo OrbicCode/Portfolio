@@ -27,7 +27,7 @@
     z-index: -1;
 }
 
-.expertiseBoxContainer {
+.expertiseItemContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,17 +44,19 @@
     display: flex;
     flex-wrap: wrap;
     gap: 2em;
+    list-style: none;
+    padding: 0;
 }
 
-.skillItem {
-    font-size: 1.25rem;
-    font-weight: 600;
-    text-align: center;
-    padding: 0.75em 1.625em;
-    border: 2px solid white;
-    transition: background 1s ease-in-out;
+@media (min-width: 768px) {
+    .expertiseItemContainer {
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
-.skillItem:hover {
-    background: var(--rust);
+@media (min-width: 1024px) {
+    .expertiseItemContainer {
+        gap: 5em;
+    }
 }
