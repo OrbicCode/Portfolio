@@ -16,25 +16,26 @@
 
 - Contact
 
-- Find best way to approach the layout ✅
-- convert navigation into component ✅
-- match the navigation close button to the burger menu button
-- convert expertise item into component
-- convert skill item into component
-- convert work item into component
-- 768px navigation change ✅
-- check cursoe pointer on all
+- General
+    - Find best way to approach the layout ✅
+    - convert navigation into component ✅
+    - match the navigation close button to the burger menu button ✅
+    - convert expertise item into component
+    - convert skill item into component
+    - convert work item into component
+    - 768px navigation change ✅
+    - check cursoe pointer on all
 
-- change section name to main-grid 
+    - change section layout name to main-grid 
 
-- fix navigation to scroll to section
-- change logo into link to home page
-- add a scroll to top button or a fixed header
+    - fix navigation to scroll to section
+    - change logo into link to home page
+    - add a scroll to top button or a fixed header
 
-- build the project page (using skill item component)
-- build the Scrimba page (using workitem component)
+    - build the project page (using skill item component)
+    - build the Scrimba page (using workitem component)
 
-- write content for about section
+    - write content for about section
 
 ## Ideas
 

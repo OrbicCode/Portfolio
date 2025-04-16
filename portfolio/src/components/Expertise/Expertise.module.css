@@ -34,34 +34,6 @@
     gap: 2em;
 }
 
-.expertiseBox {
-    text-align: center;
-    padding: 3em 1em;
-    border: 3px solid white;
-}
-
-.expertiseTitleTop {
-    position: relative;
-    width: fit-content;
-    margin: 1em auto;
-    z-index: 1;
-}
-
-.expertiseTitleTop::after {
-    content: "";
-    position: absolute;
-    left: 10%;
-    bottom: 5%;
-    height: 15px;
-    width: 105%;
-    background: var(--blue);
-    z-index: -1;
-}
-
-.expertiseDescription {
-    font-size: 1rem;
-}
-
 .skillsTitle {
     margin-top: 2em;
     text-align: center;

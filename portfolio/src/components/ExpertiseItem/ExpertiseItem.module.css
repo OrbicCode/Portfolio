@@ -1,0 +1,27 @@
+.box {
+    text-align: center;
+    padding: 3em 1em;
+    border: 3px solid white;
+}
+
+.titleTop {
+    position: relative;
+    width: fit-content;
+    margin: 1em auto;
+    z-index: 1;
+}
+
+.titleTop::after {
+    content: "";
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    height: 15px;
+    width: 105%;
+    background: var(--blue);
+    z-index: -1;
+}
+
+.description {
+    font-size: 1rem;
+}
