@@ -8,13 +8,15 @@ import WorkItem from '../WorkItem/WorkItem'
 export default function Work() {
 
     const workItemData = [
-        {
+        {   
+            id: "focus-points",
             imgUrl: imgUrl,
             alt: "image of ...",
             title: "Focus Points",
             description: "Self-Reflection App",
         },
         {
+            id: "dew-it",
             imgUrl: garden1,
             alt: "image of ...",
             title: "Focus Points",
@@ -37,6 +39,7 @@ export default function Work() {
     const workItemEl = workItemData.map((item, index) => {
         return <WorkItem 
                     key={index}
+                    id={item.id}
                     imgUrl={item.imgUrl}
                     alt={item.alt}
                     title={item.title}

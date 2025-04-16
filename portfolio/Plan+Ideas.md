@@ -7,6 +7,7 @@
 
 - HeaderTop
     - change height at breakpoints
+    - place in the layout to appear above all pages
 
 - Navigation
     - hover color on links ✅
@@ -35,6 +36,9 @@
     - format typography for different screen sizes
     - find out how to add email link
     - add links to different sites
+
+- Project Page
+    - build data for propject page 
 
 - General
     - Find best way to approach the layout ✅
