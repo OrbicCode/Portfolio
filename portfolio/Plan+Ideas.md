@@ -5,24 +5,30 @@
 - Header
     - change all font-sizes between screens ✅
 
+- HeaderTop
+    - change height at breakpoints
+
 - Navigation
     - hover color on links ✅
     - responsive typography ✅
+    - adjust hover times
+    - fix navigation to scroll to section
 
 - About
-    - max-width on text
-    - flex direction change on 768px
+    - max-width on text ✅
+    - flex direction change on 768px ✅
 
 - Expertise
-    - 768px flex direction change on item container
+    - 768px flex direction change on item container ✅
 
 - SkillItem
 
 - Work
     - change key of workitem from index to title
-    - 1024px grid change 
+    - 1024px grid change
 
 - WorkItem
+    - change read more text size
 
 - Contact
     - format typography
@@ -41,10 +47,10 @@
     - check cursor pointer on all links and buttons
     - add text-shadow to text with picture background
     - check h heirachy 
+    - adjust hover times to be consistant
 
     - change section layout name to main-grid 
 
-    - fix navigation to scroll to section
     - change logo into link to home page
     - add a scroll to top button or a fixed header
 

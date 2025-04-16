@@ -1,5 +1,8 @@
 import styles from './Work.module.css'
 import imgUrl from '../../assets/garden-2.jpeg'
+import garden1 from '../../assets/garden-1.jpeg'
+import garden from '../../assets/garden.jpeg'
+import mesh from '../../assets/mesh-1.jpeg'
 import WorkItem from '../WorkItem/WorkItem'
 
 export default function Work() {
@@ -12,19 +15,19 @@ export default function Work() {
             description: "Self-Reflection App",
         },
         {
-            imgUrl: imgUrl,
+            imgUrl: garden1,
             alt: "image of ...",
             title: "Focus Points",
             description: "Self-Reflection App",
         },
         {
-            imgUrl: imgUrl,
+            imgUrl: garden,
             alt: "image of ...",
             title: "Focus Points",
             description: "Self-Reflection App",
         },
         {
-            imgUrl: imgUrl,
+            imgUrl: mesh,
             alt: "image of ...",
             title: "Focus Points",
             description: "Self-Reflection App",

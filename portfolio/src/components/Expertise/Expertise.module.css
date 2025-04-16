@@ -42,11 +42,12 @@
 }
 
 .skillsContainer {
-    margin: 2em 0 4em;
     display: flex;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 1em;
     list-style: none;
+    max-width: 700px;
+    margin: 2em auto 4em;
     padding: 0;
 }
 
