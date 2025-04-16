@@ -4,8 +4,8 @@ export default function Hero() {
     return (
         <div className={styles.hero}>
             <span className={styles.brackets}>{'<>'}</span>
-            <h1>James O<span className={styles.heroTextFlare}>'</span>Kane</h1>
-            <h4>Software Engineer <span className={styles.heroTextFlare}>|</span> Web Developer</h4>
+            <h1 className={styles.title}>James O<span className={styles.heroTextFlare}>'</span>Kane</h1>
+            <h2 className={styles.subtitle}>Software Engineer <span className={styles.heroTextFlare}>|</span> Web Developer</h2>
             <span className={styles.brackets}>{'</>'}</span>
         </div>
     )

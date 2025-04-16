@@ -26,13 +26,6 @@ body {
   background: var(--eerie);
 }
 
-h1 {
-  font-size: 2.5rem;
-  font-weight: 600;
-  margin: 0;
-  letter-spacing: 2px;
-}
-
 h2 {
   font-size: 2rem;
   color: var(--beige);

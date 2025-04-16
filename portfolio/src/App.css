@@ -17,28 +17,16 @@
     .section {
         grid-template-columns: minmax(2em, 1fr) minmax(auto, 1200px) minmax(2em, 1fr);
     }
-    
-    h1 {
-        font-size: 3rem;
-    }
 }
 
 @media (min-width: 768px) {
     .section {
         grid-template-columns: minmax(3em, 1fr) minmax(auto, 1200px) minmax(3em, 1fr);
     }
-    
-    h1 {
-        font-size: 4rem;
-    }
 }
 
 @media (min-width: 1024px) {
     .section {
         grid-template-columns: minmax(4em, 1fr) minmax(auto, 1200px) minmax(4em, 1fr);
-    }
-    
-    h1 {
-        font-size: 6rem;
     }
 }

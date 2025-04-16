@@ -9,8 +9,10 @@ export default function Header() {
             <div className='container'>
 
                 <HeaderTop />
-                <Hero />
-
+                <div className={styles.heroContainer}>
+                    <Hero />
+                </div>
+                
                 <div className={styles.curve}></div>
             </div>    
         </header>
