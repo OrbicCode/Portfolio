@@ -7,6 +7,7 @@
 
 - Navigation
     - hover color on links
+    - responsive typography 
 
 - About
     - max-width on text
