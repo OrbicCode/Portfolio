@@ -14,6 +14,7 @@
     - responsive typography ✅
     - adjust hover times
     - fix navigation to scroll to section
+    - convert to NavLink
 
 - About
     - max-width on text ✅
@@ -39,6 +40,7 @@
 
 - Project Page
     - build data for propject page
+    - skillItem map
     - Then Phone layout and typography
     - Responsiveness
 
@@ -54,6 +56,8 @@
     - add text-shadow to text with picture background
     - check h heirachy 
     - adjust hover times to be consistant
+    - organise images into a file to use for data
+    - fix image quality and sizes
 
     - change section layout name to main-grid 
 

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { useParams } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 import SkillItem from "../../components/SkillItem/SkillItem"
 import HeaderTop from "../../components/HeaderTop/HeaderTop"
 import projectData from "../../data/projectData"
@@ -19,9 +19,9 @@ export default function ProjectPage() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundColor: 'rgba(15, 19, 22, 0.85)',
+        backgroundColor: 'rgba(0, 0, 0, 0.8)',
         backgroundBlendMode: 'overlay',
-        backgroundAttachment: 'fixed',
+        // backgroundAttachment: 'fixed',
         height: '100vh'
     }
 
@@ -29,15 +29,19 @@ export default function ProjectPage() {
         return <p>Not Found</p>
     }
 
+    const imageDisplay = project.projectImages.map((image, index) => {
+        return <img key={index} src={image.src} alt={image.alt} />
+    })
+
     return (
         <div style={backgroundStyles} className="section">
             <div className="container">
                 <HeaderTop />
-                <h1>{project.title}</h1>
-                <h2>subtitle placeholder</h2>
-                <p>{project.description}</p>
+                <h1 className={styles.title}>{project.title}</h1>
+                <h2 className={styles.subTitle}>subtitle placeholder</h2>
+                <p className={styles.description}>{project.description}</p>
                 <div>
-                    <h2>Tech Used</h2>
+                    <h2 className={styles.techTitle}>Tech Used</h2>
                     <ul className={styles.list}>
                         <SkillItem text="HTML" />
                         <SkillItem text="CSS" />
@@ -47,9 +51,8 @@ export default function ProjectPage() {
                     </ul>
                 </div>
                 <button>Live Link</button>
-                <div>
-                    <img />
-                    <img />
+                <div className={styles.imageDisplay}>
+                    {imageDisplay}
                 </div>
                 
             </div>
