@@ -8,7 +8,7 @@ export default function Work() {
         return <WorkItem 
                     key={index}
                     id={item.id}
-                    imgUrl={item.coverImage.image}
+                    imgUrl={item.coverImage.src}
                     alt={item.coverImage.alt}
                     title={item.title}
                     subTitle={item.subTitle}

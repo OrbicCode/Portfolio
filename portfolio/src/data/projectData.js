@@ -15,7 +15,7 @@ const projectData = [
                         users, for users. Users can vote on each others reviews
                         for user engagement.`,
         coverImage: {
-            image: reelMagicHome,
+            src: reelMagicHome,
             alt: "ReelMagic homepage in desktop mode."
         },
         projectImages: [
@@ -44,7 +44,7 @@ const projectData = [
                        todo list in a series pf widgets. Stay tuned on LinkedIn 
                        for uopdates coming soon.`,
         coverImage: {
-            image: dewIt,
+            src: dewIt,
             alt: "a Star Wars themed to-do list with a joke widget and Nasa photo of the day"
         },
         projectImages: [
@@ -70,7 +70,7 @@ const projectData = [
                         imagining that we had a quantum computer. As a group we decided
                         to try React-Native for the first time`,
         coverImage: {
-            image: ecoSage,
+            src: ecoSage,
             alt: "EcoSage app displayed on a phone with a background of a churning sea next to a cliff."
         },
         projectImages: [
@@ -93,7 +93,7 @@ const projectData = [
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
         coverImage: {
-            image: scrimba,
+            src: scrimba,
             alt: "The Scrimba logo"
         },
         linkTo: "/scrimba",

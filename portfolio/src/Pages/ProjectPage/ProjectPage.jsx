@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom"
 import SkillItem from "../../components/SkillItem/SkillItem"
 import HeaderTop from "../../components/HeaderTop/HeaderTop"
 import projectData from "../../data/projectData"
+import scrimbaProjectData from "../../data/scrimbaProjectData"
 import styles from './ProjectPage.module.css'
 
 export default function ProjectPage() {
@@ -10,12 +11,13 @@ export default function ProjectPage() {
     const [project, setProject] = useState(null)
 
     useEffect(() => {
-        const foundProject = projectData.find(project => project.id === id)
+        const combinedData = [...projectData, ...scrimbaProjectData]
+        const foundProject = combinedData.find(project => project.id === id)
         setProject(foundProject)
     }, [id])
 
     const backgroundStyles = {
-        backgroundImage: `url(${project ? project.coverImage.image: null})`,
+        backgroundImage: `url(${project ? project.coverImage.src: null})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
