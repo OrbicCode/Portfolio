@@ -34,23 +34,32 @@ export default function ProjectPage() {
     })
 
     return (
-        <div style={backgroundStyles} className="section">
+        <div style={backgroundStyles} className={`${styles.projectPage} section`}>
             <div className="container">
                 <HeaderTop />
-                <h1 className={styles.title}>{project.title}</h1>
-                <h2 className={styles.subTitle}>subtitle placeholder</h2>
-                <p className={styles.description}>{project.description}</p>
-                <div>
-                    <h2 className={styles.techTitle}>Tech Used</h2>
-                    <ul className={styles.list}>
-                        <SkillItem text="HTML" />
-                        <SkillItem text="CSS" />
-                        <SkillItem text="JS" />
-                        <SkillItem text="React" />
-                        <SkillItem text="Next.js" />
-                    </ul>
+                <div className={styles.projectInfo}>
+                    <div className={styles.projectMainInfo}>
+                        <h1 className={styles.title}>{project.title}</h1>
+                        <h2 className={styles.subTitle}>{project.subTitle}</h2>
+                        <p className={styles.description}>{project.description}</p>
+                    </div>
+                    <div>
+                        <h2 className={styles.techTitle}>Tech Used</h2>
+                        <ul className={styles.list}>
+                            <SkillItem text="HTML" />
+                            <SkillItem text="CSS" />
+                            <SkillItem text="JS" />
+                            <SkillItem text="React" />
+                            <SkillItem text="Next.js" />
+                        </ul>
+                    </div>
                 </div>
-                <button>Live Link</button>
+                <h2 className={styles.linkTitle}>Links</h2>
+                <div className={styles.linkContainer}>
+                    <Link className={styles.link}>Live Link</Link>
+                    <Link className={styles.link}>GitHub</Link>
+                </div>
+                
                 <div className={styles.imageDisplay}>
                     {imageDisplay}
                 </div>

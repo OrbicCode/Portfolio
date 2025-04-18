@@ -58,6 +58,7 @@
     - adjust hover times to be consistant
     - organise images into a file to use for data
     - fix image quality and sizes
+    - change h2 to white?
 
     - change section layout name to main-grid 
 
