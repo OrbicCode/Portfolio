@@ -5,8 +5,10 @@ import unitConv from '../assets/unitConv.png'
 import oldagram from '../assets/oldagram.png'
 import oldagram2 from '../assets/oldagram-2.png'
 import twimba from '../assets/twimba.png'
-import jimmysDiner from '../assets/jimmysDiner'
-import jimmysDiner2 from '../assets/jimmysDiner-2'
+import jimmysDiner from '../assets/jimmysDiner.png'
+import jimmysDiner2 from '../assets/jimmysDiner-2.png'
+import myLearningJournal from '../assets/my-learning-journal.png'
+import myLearningJournal2 from '../assets/my-learning-journal-2.png'
 
 const scrimbaProjectData = [
         {
@@ -148,6 +150,27 @@ const scrimbaProjectData = [
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
             linkTo: "/projects/jimmys-diner",
             liveLink: "https://jimmys-scrim-diner.netlify.app/",
+            gitHub: ""
+        },
+        {
+            id: "my-learning-journal",
+            title: "My Learning Journal",
+            subTitle: "A responsive site",
+            description: `A site built to practice CSS grid across multiple pages and
+                            making the site responsive as well as turning a Figma design into code.`,
+            coverImage: {
+                src: myLearningJournal,
+                alt: "my learning journal, responsive site"
+            },
+            projectImages: [
+                {
+                    src: myLearningJournal2,
+                    alt: "the about me page of my learning journal"
+                },
+            ],
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            linkTo: "/projects/my-learning-journal",
+            liveLink: "https://mlj-scrim.netlify.app/",
             gitHub: ""
         },
 ]
