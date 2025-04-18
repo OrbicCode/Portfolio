@@ -38,7 +38,9 @@
     - add links to different sites
 
 - Project Page
-    - build data for propject page 
+    - build data for propject page
+    - Then Phone layout and typography
+    - Responsiveness
 
 - General
     - Find best way to approach the layout ✅

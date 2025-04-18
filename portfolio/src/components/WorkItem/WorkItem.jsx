@@ -2,14 +2,14 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from './WorkItem.module.css'
 
-export default function WorkItem({ id, imgUrl, alt, title, description }) {
+export default function WorkItem({ imgUrl, alt, title, subTitle, linkTo }) {
 
 
     const [isMouseOver, setIsMouseOver] = useState(false);
 
 
     return (
-        <Link to={`/project/${id}`} className={styles.link}>
+        <Link to={linkTo} className={styles.link}>
             <div 
                 className={styles.item}
                 onMouseEnter={() => setIsMouseOver(true)}
@@ -19,7 +19,7 @@ export default function WorkItem({ id, imgUrl, alt, title, description }) {
                 <div className={styles.itemText}>
                     <div className={styles.info}>
                         <h3>{title}</h3>
-                        <p>{description}</p>
+                        <p>{subTitle}</p>
                     </div>
                     <span className={isMouseOver ? styles.showReadMore : styles.readMore}>
                         Read more

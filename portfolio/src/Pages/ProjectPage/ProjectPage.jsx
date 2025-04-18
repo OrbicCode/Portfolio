@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import SkillItem from "../../components/SkillItem/SkillItem"
 import HeaderTop from "../../components/HeaderTop/HeaderTop"
-import image from '../../assets/garden.jpeg'
+import projectData from "../../data/projectData"
 import styles from './ProjectPage.module.css'
 
 export default function ProjectPage() {
@@ -14,17 +14,8 @@ export default function ProjectPage() {
         setProject(foundProject)
     }, [id])
 
-    const projectData = [
-        {
-            id: "focus-points",
-            title: "Focus Points",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            image: image
-        }
-    ]
-
     const backgroundStyles = {
-        backgroundImage: `url(${project ? project.image: null})`,
+        backgroundImage: `url(${project ? project.coverImage.image: null})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

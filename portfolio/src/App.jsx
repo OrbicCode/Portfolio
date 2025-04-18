@@ -22,7 +22,7 @@ function App() {
               <Contact />
             </>
           } />
-          <Route path="/project/:id" element={<ProjectPage />} />
+          <Route path="/projects/:id" element={<ProjectPage />} />
         </Routes>
       </div>
     </Router>
