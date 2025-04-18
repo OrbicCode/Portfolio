@@ -5,6 +5,8 @@ import unitConv from '../assets/unitConv.png'
 import oldagram from '../assets/oldagram.png'
 import oldagram2 from '../assets/oldagram-2.png'
 import twimba from '../assets/twimba.png'
+import jimmysDiner from '../assets/jimmysDiner'
+import jimmysDiner2 from '../assets/jimmysDiner-2'
 
 const scrimbaProjectData = [
         {
@@ -124,6 +126,28 @@ const scrimbaProjectData = [
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
             linkTo: "/projects/twimba",
             liveLink: "https://s-twimba.netlify.app/",
+            gitHub: ""
+        },
+        {
+            id: "jimmys-diner",
+            title: "Jimmys Diner",
+            subTitle: "A restaurant ordering app",
+            description: `A restaurant ordering app, built to practice adding and removing
+                            items from the DOM using event listeners. setting conditions
+                            for information to be displayed.`,
+            coverImage: {
+                src: jimmysDiner,
+                alt: "a restaurant ordering app called Jimmy's Diner"
+            },
+            projectImages: [
+                {
+                    src: jimmysDiner2,
+                    alt: "a payment prompt after items have been selected."
+                },
+            ],
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            linkTo: "/projects/jimmys-diner",
+            liveLink: "https://jimmys-scrim-diner.netlify.app/",
             gitHub: ""
         },
 ]
