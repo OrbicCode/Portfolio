@@ -7,6 +7,7 @@ export default function Scrimba() {
     const workItemDisplay = scrimbaProjectData.map(project => {
         return (
             <WorkItem
+                key={project.id}
                 imgUrl={project.coverImage.src}
                 alt={project.coverImage.alt}
                 title={project.title}
