@@ -6,6 +6,7 @@ import Work from './components/Work/Work'
 import Contact from './components/Contact/Contact'
 import ProjectPage from './Pages/ProjectPage/ProjectPage'
 import Scrimba from './Pages/Scrimba/Scrimba'
+import HeaderTop from './components/HeaderTop/HeaderTop'
 import './App.css'
 
 function App() {

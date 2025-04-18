@@ -7,7 +7,6 @@
 
 - HeaderTop
     - change height at breakpoints
-    - place in the layout to appear above all pages
 
 - Navigation
     - hover color on links ✅
