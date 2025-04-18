@@ -33,6 +33,10 @@ export default function ProjectPage() {
         return <img key={index} src={image.src} alt={image.alt} />
     })
 
+    const techUsedDisplay = project.techUsed.map(tech => {
+        return <SkillItem key={tech} text={tech} />
+    })
+
     return (
         <div style={backgroundStyles} className={`${styles.projectPage} section`}>
             <div className="container">
@@ -43,21 +47,17 @@ export default function ProjectPage() {
                         <h2 className={styles.subTitle}>{project.subTitle}</h2>
                         <p className={styles.description}>{project.description}</p>
                     </div>
-                    <div>
+                    <div className={styles.techUsed}>
                         <h2 className={styles.techTitle}>Tech Used</h2>
                         <ul className={styles.list}>
-                            <SkillItem text="HTML" />
-                            <SkillItem text="CSS" />
-                            <SkillItem text="JS" />
-                            <SkillItem text="React" />
-                            <SkillItem text="Next.js" />
+                            {techUsedDisplay}
                         </ul>
                     </div>
                 </div>
                 <h2 className={styles.linkTitle}>Links</h2>
                 <div className={styles.linkContainer}>
-                    <Link className={styles.link}>Live Link</Link>
-                    <Link className={styles.link}>GitHub</Link>
+                    {project.liveLink ? <Link to={project.liveLink} target="_blank" className={styles.link}>Live Link</Link>: null}
+                    {project.gitHub ? <Link to={project.gitHub} target="_blank" className={styles.link}>GitHub</Link>: null}
                 </div>
                 
                 <div className={styles.imageDisplay}>

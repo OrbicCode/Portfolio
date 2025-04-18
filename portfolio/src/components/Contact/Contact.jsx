@@ -7,7 +7,7 @@ export default function Contact() {
                 <h2 className={styles.title}>Contact</h2>
                 <h3 className={styles.available}>Available for hire</h3>
                 <p className={styles.hook}>
-                    Let's make something cool togetther
+                    Let's make something cool together
                 <br />
                 <br />
                     Drop me an email or send me a message on LinkedIn 

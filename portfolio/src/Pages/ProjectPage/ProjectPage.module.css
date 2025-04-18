@@ -28,6 +28,11 @@
     max-width: 500px;
 }
 
+.techUsed {
+    max-width: 500px;
+    align-self: center;
+}
+
 .techTitle {
     font-size: 1.75rem;
     text-align: center;
@@ -62,12 +67,12 @@
 }
 
 .imageDisplay {
-    width: 100%;
+    margin-top: 2em;
+    border: 3px solid white;
 }
 
 .imageDisplay img {
     width: 100%;
-    max-width: 100%;
     object-fit: cover;
     margin-bottom: -8px;
 }
@@ -83,8 +88,16 @@
 @media (min-width: 768px) {
     .projectInfo {
         flex-direction: row;
-        justify-content: space-between;
-        gap: 3em
+        justify-content: space-around;
+        gap: 2em;
+    }
+
+    .projectMainInfo {
+        min-width: 300px;
+    }
+
+    .techUsed {
+        padding-left: 2em;
     }
     
     .techTitle {
@@ -93,5 +106,6 @@
 
     .list {
         justify-content: flex-start;
+        flex-wrap: wrap;
     }
 }

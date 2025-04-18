@@ -40,9 +40,11 @@
 
 - Project Page
     - build data for propject page
-    - skillItem map
-    - Then Phone layout and typography
-    - Responsiveness
+    - skillItem map ✅
+    - Then Phone layout and typography ✅
+    - Responsiveness ✅
+    - Link hover effects and responsiveness
+    - click on images to enlarge
 
 - General
     - Find best way to approach the layout ✅
@@ -59,6 +61,7 @@
     - organise images into a file to use for data
     - fix image quality and sizes
     - change h2 to white?
+    - 404 not found page
 
     - change section layout name to main-grid 
 

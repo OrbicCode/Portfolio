@@ -5,6 +5,7 @@ import Expertise from './components/Expertise/Expertise'
 import Work from './components/Work/Work'
 import Contact from './components/Contact/Contact'
 import ProjectPage from './Pages/ProjectPage/ProjectPage'
+import Scrimba from './Pages/Scrimba/Scrimba'
 import './App.css'
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             </>
           } />
           <Route path="/projects/:id" element={<ProjectPage />} />
+          <Route path="/scrimba" element={<Scrimba />} />
         </Routes>
       </div>
     </Router>

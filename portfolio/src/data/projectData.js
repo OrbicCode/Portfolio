@@ -1,8 +1,8 @@
-import image from '../assets/garden.jpeg'
-import garden from '../assets/garden-2.jpeg'
-import mesh from '../assets/mesh-1.jpeg'
 import reelMagicHome from '../assets/reelMagic-home.png'
 import reeLMagic1 from '../assets/reelMagic-1.png'
+import dewIt from '../assets/dew-it.png'
+import ecoSage from '../assets/ecoSage.jpeg'
+import scrimba from '../assets/scrimba.jpg'
 
 const projectData = [
     {
@@ -28,56 +28,61 @@ const projectData = [
                 alt: "On the left an image of the dynamic review system. On the right an image of a movie information page.",
             },
         ],
-        techUsed: [],
+        techUsed: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Figma", "Postman", "Git", "GitHub", "PlayWright"],
         linkTo: "/projects/reel-magic",
-        liveLink: "",
-        gitHub: ""
+        liveLink: "https://reelmagic.netlify.app/",
+        gitHub: "https://github.com/SchoolOfCode/final-project-reelstack"
     },
     {
         id: "dew-it",
         title: "Dew It",
         subTitle: "Todo List",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+        description: `I started this project during my time at school of 
+    ]                  code in order to proctice my vanilla JavaScript 
+                       skills and api calls. The skills I honed in this project 
+                       will be used to make a personal dashboard app with an integrated
+                       todo list in a series pf widgets. Stay tuned on LinkedIn 
+                       for uopdates coming soon.`,
         coverImage: {
-            image: garden,
-            alt: "image of"
+            image: dewIt,
+            alt: "a Star Wars themed to-do list with a joke widget and Nasa photo of the day"
         },
         projectImages: [
             {
-                src: "",
-                alt: "",
+                src: dewIt,
+                alt: "a Star Wars themed to-do list with a joke widget and Nasa photo of the day",
             }
         ],
-        techUsed: [],
+        techUsed: ["HTML", "CSS", "JavaScript", "REST APIs", "Netlify"],
         linkTo: "/projects/dew-it",
-        liveLink: "",
-        gitHub: ""
+        liveLink: "https://dewit.netlify.app/",
+        gitHub: "https://github.com/OrbicCode/Dew-It"
     },
     {
         id: "eco-sage",
         title: "Eco Sage",
         subTitle: "Eco recommendations App",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+        description: ` An app that uses AI to give you personalised recommendations to 
+                        help with climate change based on your location, while giving you 
+                        local climate data.
+                        At my second ever hackathon for SandboxAQ we were given the task
+                        of developing an App that solves on of the UN's SDGs, while
+                        imagining that we had a quantum computer. As a group we decided
+                        to try React-Native for the first time`,
         coverImage: {
-            image: image,
-            alt: "image of"
+            image: ecoSage,
+            alt: "EcoSage app displayed on a phone with a background of a churning sea next to a cliff."
         },
         projectImages: [
             {
-                src: "",
-                alt: "",
+                src: ecoSage,
+                alt: "EcoSage app displayed on a phone with a background of a churning sea next to a cliff.",
             }
         ],
-        techUsed: [],
-        linkTo: "/projects/focus-points",
+        techUsed: ["HTML", "CSS", "JavaScript", "React-Native", "Expo-go", "Hugging Face", "REST APIs", "Figma", "Git", "GitHub"],
+        linkTo: "/projects/eco-sage",
         liveLink: "",
-        gitHub: ""
+        gitHub: "https://github.com/dne15/sandbox-hackathon"
     },
     {
         id: "scrimba",
@@ -88,8 +93,8 @@ const projectData = [
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
         coverImage: {
-            image: mesh,
-            alt: "image of"
+            image: scrimba,
+            alt: "The Scrimba logo"
         },
         linkTo: "/scrimba",
     }
