@@ -164,9 +164,13 @@ const scrimbaProjectData = [
             },
             projectImages: [
                 {
+                    src: myLearningJournal,
+                    alt: "my learning journal, responsive site"
+                },
+                {
                     src: myLearningJournal2,
                     alt: "the about me page of my learning journal"
-                },
+                }
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
             linkTo: "/projects/my-learning-journal",
