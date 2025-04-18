@@ -2,6 +2,8 @@ import bbScoreFigma from '../assets/bb-figma.png'
 import bbScore from '../assets/bb-score.png'
 import rpwGen from '../assets/rpw-gen.png'
 import unitConv from '../assets/unitConv.png'
+import oldagram from '../assets/oldagram.png'
+import oldagram2 from '../assets/oldagram-2.png'
 
 const scrimbaProjectData = [
         {
@@ -72,6 +74,33 @@ const scrimbaProjectData = [
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
             linkTo: "/projects/unit-converter",
             liveLink: "https://unit-converterer.netlify.app/",
+            gitHub: ""
+        },
+        {
+            id: "oldagram",
+            title: "Oldagram",
+            subTitle: "An Instagram clone",
+            description: `An Instagram clone featuring some classic paintings,
+                            built to practice manipulating the DOM with 
+                            JavaScript and using data to map elements onto 
+                            the page`,
+            coverImage: {
+                src: oldagram,
+                alt: "oldagram, an instagram clone."
+            },
+            projectImages: [
+                {
+                    src: oldagram,
+                    alt: "oldagram, an instagram clone.",
+                },
+                {
+                    src: oldagram2,
+                    alt: "oldagram, an instagram clone.",
+                },
+            ],
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            linkTo: "/projects/oldagram",
+            liveLink: "https://thegramclone.netlify.app/",
             gitHub: ""
         },
 ]
