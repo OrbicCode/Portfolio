@@ -1,6 +1,7 @@
 import HeaderTop from "../../components/HeaderTop/HeaderTop"
 import WorkItem from "../../components/WorkItem/WorkItem"
 import scrimbaProjectData from '../../data/scrimbaProjectData'
+import styles from './Scrimba.module.css'
 
 export default function Scrimba() {
     
@@ -22,7 +23,7 @@ export default function Scrimba() {
                 <HeaderTop />
                 <h1>Scrimba</h1>
                 <h2></h2>
-                <div>
+                <div className={styles.workItemsContainer}>
                     {workItemDisplay}
                 </div>
             </div>

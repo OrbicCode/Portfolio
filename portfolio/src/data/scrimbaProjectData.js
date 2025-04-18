@@ -4,6 +4,7 @@ import rpwGen from '../assets/rpw-gen.png'
 import unitConv from '../assets/unitConv.png'
 import oldagram from '../assets/oldagram.png'
 import oldagram2 from '../assets/oldagram-2.png'
+import twimba from '../assets/twimba.png'
 
 const scrimbaProjectData = [
         {
@@ -101,6 +102,28 @@ const scrimbaProjectData = [
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
             linkTo: "/projects/oldagram",
             liveLink: "https://thegramclone.netlify.app/",
+            gitHub: ""
+        },
+        {
+            id: "twimba",
+            title: "Twimba",
+            subTitle: "A Twitter clone",
+            description: `An Twitter clone, built to practice displaying Font Awsome icons,
+                            then adding code to make them interactive. Also practicing
+                            turning a Figma design file into code`,
+            coverImage: {
+                src: twimba,
+                alt: "twimba, atwiiter clone."
+            },
+            projectImages: [
+                {
+                    src: twimba,
+                    alt: "twimba, atwiiter clone."
+                },
+            ],
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            linkTo: "/projects/twimba",
+            liveLink: "https://s-twimba.netlify.app/",
             gitHub: ""
         },
 ]
