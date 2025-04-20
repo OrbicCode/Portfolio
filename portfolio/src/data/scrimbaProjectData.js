@@ -11,6 +11,8 @@ import myLearningJournal from '../assets/my-learning-journal.png'
 import myLearningJournal2 from '../assets/my-learning-journal-2.png'
 import csGen from '../assets/cs-gen.png'
 import csGen1 from '../assets/cs-gen-1.png'
+import mwl from '../assets/mwl.png'
+import mwl1 from '../assets/mwl-1.png'
 
 const scrimbaProjectData = [
         {
@@ -202,9 +204,36 @@ const scrimbaProjectData = [
                     alt: "the about me page of my learning journal"
                 }
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "REST APIs"],
             linkTo: "/projects/color-scheme-generator",
             liveLink: "https://cs-generator.netlify.app/",
+            gitHub: ""
+        },
+        {
+            id: "movie-watchlist",
+            title: "Movie Watchlist",
+            subTitle: "A Movie Watchlist",
+            description: `A site built to practice getting info from an API to display
+                            on the page. I used OMDB api in order to get the data.
+                            I also practiced using local storage in order to save 
+                            information to then display on another page.`,
+            coverImage: {
+                src: mwl,
+                alt: "my learning journal, responsive site"
+            },
+            projectImages: [
+                {
+                    src: mwl,
+                    alt: "my learning journal, responsive site"
+                },
+                {
+                    src: mwl1,
+                    alt: "the about me page of my learning journal"
+                }
+            ],
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "REST APIs"],
+            linkTo: "/projects/movie-watchlist",
+            liveLink: "https://mov-wl.netlify.app/",
             gitHub: ""
         },
 ]
