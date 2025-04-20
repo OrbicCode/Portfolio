@@ -9,6 +9,8 @@ import jimmysDiner from '../assets/jimmysDiner.png'
 import jimmysDiner2 from '../assets/jimmysDiner-2.png'
 import myLearningJournal from '../assets/my-learning-journal.png'
 import myLearningJournal2 from '../assets/my-learning-journal-2.png'
+import csGen from '../assets/cs-gen.png'
+import csGen1 from '../assets/cs-gen-1.png'
 
 const scrimbaProjectData = [
         {
@@ -157,7 +159,8 @@ const scrimbaProjectData = [
             title: "My Learning Journal",
             subTitle: "A responsive site",
             description: `A site built to practice CSS grid across multiple pages and
-                            making the site responsive as well as turning a Figma design into code.`,
+                            making the site responsive using media queries as well as 
+                            turning a Figma design into code.`,
             coverImage: {
                 src: myLearningJournal,
                 alt: "my learning journal, responsive site"
@@ -175,6 +178,33 @@ const scrimbaProjectData = [
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
             linkTo: "/projects/my-learning-journal",
             liveLink: "https://mlj-scrim.netlify.app/",
+            gitHub: ""
+        },
+        {
+            id: "color-scheme-generator",
+            title: "Color Scheme Generator",
+            subTitle: "A Color Scheme Generator",
+            description: `A site built to practice getting info from an API to display
+                            on the page. I used thecolorapi in order to get the data.
+                            I also practiced getting info from an input to place 
+                            in a get request string`,
+            coverImage: {
+                src: csGen,
+                alt: "my learning journal, responsive site"
+            },
+            projectImages: [
+                {
+                    src: csGen,
+                    alt: "my learning journal, responsive site"
+                },
+                {
+                    src: csGen1,
+                    alt: "the about me page of my learning journal"
+                }
+            ],
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            linkTo: "/projects/color-scheme-generator",
+            liveLink: "https://cs-generator.netlify.app/",
             gitHub: ""
         },
 ]

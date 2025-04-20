@@ -30,6 +30,7 @@
 
 - WorkItem
     - change read more text size
+    - fix responsiveness of the info box size
 
 - Contact
     - format typography
@@ -42,6 +43,7 @@
     - skillItem map ✅
     - Then Phone layout and typography ✅
     - Responsiveness ✅
+    - h1 size increase
     - Link hover effects and responsiveness
     - click on images to enlarge
 

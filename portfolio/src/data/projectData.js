@@ -28,7 +28,7 @@ const projectData = [
                 alt: "On the left an image of the dynamic review system. On the right an image of a movie information page.",
             },
         ],
-        techUsed: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Figma", "Postman", "Git", "GitHub", "PlayWright"],
+        techUsed: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Figma", "REST APIs", "Git", "GitHub", "PlayWright"],
         linkTo: "/projects/reel-magic",
         liveLink: "https://reelmagic.netlify.app/",
         gitHub: "https://github.com/SchoolOfCode/final-project-reelstack"
