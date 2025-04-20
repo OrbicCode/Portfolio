@@ -13,6 +13,12 @@ import csGen from '../assets/cs-gen.png'
 import csGen1 from '../assets/cs-gen-1.png'
 import mwl from '../assets/mwl.png'
 import mwl1 from '../assets/mwl-1.png'
+import tenzies from './assets/tenzies.png'
+import tenzies1 from './assets/tenzies-1.png'
+import ae from '../assets/ae.png'
+import ae1 from '../assets/ae-1.png'
+import vl from './assets/vl.png'
+import vl1 from './assets/vl-1.png'
 
 const scrimbaProjectData = [
         {
@@ -234,6 +240,82 @@ const scrimbaProjectData = [
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "REST APIs"],
             linkTo: "/projects/movie-watchlist",
             liveLink: "https://mov-wl.netlify.app/",
+            gitHub: ""
+        },
+        {
+            id: "tenzies",
+            title: "Tenzies",
+            subTitle: "The game Tenzies",
+            description: `A React site build to practice using useRef, useState and useEffect
+                            to store information and change the appearance of items
+                            in the DOM`,
+            coverImage: {
+                src: tenzies,
+                alt: "my learning journal, responsive site"
+            },
+            projectImages: [
+                {
+                    src: tenzies,
+                    alt: "my learning journal, responsive site"
+                },
+                {
+                    src: tenzies1,
+                    alt: "the about me page of my learning journal"
+                }
+            ],
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React"],
+            linkTo: "/projects/tenzies",
+            liveLink: "https://tennys.netlify.app/",
+            gitHub: ""
+        },
+        {
+            id: "assembly-endgame",
+            title: "Assembly Endgame",
+            subTitle: "A hangman style game",
+            description: `A React site build to practice using useRef, useState and useEffect
+                            to store information and change the appearance of items
+                            in the DOM`,
+            coverImage: {
+                src: ae,
+                alt: "my learning journal, responsive site"
+            },
+            projectImages: [
+                {
+                    src: ae,
+                    alt: "my learning journal, responsive site"
+                },
+                {
+                    src: ae1,
+                    alt: "the about me page of my learning journal"
+                }
+            ],
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React"],
+            linkTo: "/projects/assembly-endgame",
+            liveLink: "https://assem-endgame.netlify.app/",
+            gitHub: ""
+        },
+        {
+            id: "van-life",
+            title: "Van Life",
+            subTitle: "A Van Hiring App",
+            description: `A React site build to practice using React Router, protected routes and nested routes`,
+            coverImage: {
+                src: vl,
+                alt: "my learning journal, responsive site"
+            },
+            projectImages: [
+                {
+                    src: vl,
+                    alt: "my learning journal, responsive site"
+                },
+                {
+                    src: vl1,
+                    alt: "the about me page of my learning journal"
+                }
+            ],
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React"],
+            linkTo: "/projects/tenzies",
+            liveLink: "https://tennys.netlify.app/",
             gitHub: ""
         },
 ]
