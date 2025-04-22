@@ -20,11 +20,14 @@
     display: flex;
     justify-content: space-between;
     align-items: last baseline;
-    padding: 1em 2em;
+    padding: 0.75em 2em;
 }
 
 .itemText h3 {
     font-size: 1.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-emphasis: ellipsis;
 }
 
 .itemText p {
@@ -32,31 +35,46 @@
     color: rgba(255, 255, 255, 0.75);
 }
 
-.itemText span {
-    font-size: 0.875rem;
+.itemText i {
+    font-size: 1.5rem;
+    overflow: hidden;
 }
 
 .readMore {
     opacity: 0;
     transform: translateY(-20px);
-    pointer-events: none; /* Prevent interaction when hidden */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth animation */
+    pointer-events: none;
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .showReadMore {
     opacity: 1;
     transform: translateY(0);
-    pointer-events: auto; /* Allow interaction when visible */
-    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth animation */
+    pointer-events: auto;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+@media (max-width: 350px) {
+    .itemText {
+        padding: 0.5em 1em
+    }
+
+    .itemText h3 {
+        font-size: 1rem;
+    }
+
+    .itemText p {
+        font-size: 0.75rem;
+    }
 }
 
 @media (min-width: 480px) {
     .itemText h3 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .itemText p,
     .itemText span{
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
 }

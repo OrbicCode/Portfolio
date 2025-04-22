@@ -5,7 +5,9 @@ import styles from './Scrimba.module.css'
 
 export default function Scrimba() {
     
-    const workItemDisplay = scrimbaProjectData.map(project => {
+    const reversedScrimbaProjects = [...scrimbaProjectData].reverse()
+
+    const workItemDisplay = reversedScrimbaProjects.map(project => {
         return (
             <WorkItem
                 key={project.id}
@@ -18,11 +20,11 @@ export default function Scrimba() {
         ) 
     })
     return (
-        <section className="section">
+        <section className={`${styles.scrimba} section`}>
             <div className="container">
                 <HeaderTop />
-                <h1>Scrimba</h1>
-                <h2></h2>
+                <h1 className={styles.title}>Scrimba Projects</h1>
+                <h2 className={styles.subtitle}>Check out The projects I have done during my Scrimba Courses</h2>
                 <div className={styles.workItemsContainer}>
                     {workItemDisplay}
                 </div>

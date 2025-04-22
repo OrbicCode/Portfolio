@@ -13,12 +13,12 @@ import csGen from '../assets/cs-gen.png'
 import csGen1 from '../assets/cs-gen-1.png'
 import mwl from '../assets/mwl.png'
 import mwl1 from '../assets/mwl-1.png'
-import tenzies from './assets/tenzies.png'
-import tenzies1 from './assets/tenzies-1.png'
+import tenzies from '../assets/tenzies.png'
+import tenzies1 from '../assets/tenzies-1.png'
 import ae from '../assets/ae.png'
 import ae1 from '../assets/ae-1.png'
-import vl from './assets/vl.png'
-import vl1 from './assets/vl-1.png'
+import vl from '../assets/vl.png'
+import vl1 from '../assets/vl-1.png'
 
 const scrimbaProjectData = [
         {
@@ -313,9 +313,9 @@ const scrimbaProjectData = [
                     alt: "the about me page of my learning journal"
                 }
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React"],
-            linkTo: "/projects/tenzies",
-            liveLink: "https://tennys.netlify.app/",
+            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React", "React Router"],
+            linkTo: "/projects/van-life",
+            liveLink: "https://van-lifey.netlify.app/",
             gitHub: ""
         },
 ]

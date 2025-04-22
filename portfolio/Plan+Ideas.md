@@ -7,6 +7,7 @@
 
 - HeaderTop
     - change height at breakpoints
+    - change logo into link to home page
 
 - Navigation
     - hover color on links ✅
@@ -29,8 +30,8 @@
     - 1024px grid change
 
 - WorkItem
-    - change read more text size
-    - fix responsiveness of the info box size
+    - change read more text size ✅
+    - fix responsiveness of the info box size ✅
 
 - Contact
     - format typography
@@ -65,12 +66,13 @@
     - 404 not found page
 
     - change section layout name to main-grid 
+    - format CSS
+    - check classNames for readability
 
-    - change logo into link to home page
     - add a scroll to top button or a fixed header
 
-    - build the project page (using skill item component)
-    - build the Scrimba page (using workitem component)
+    - build the project page (using skill item component) ✅
+    - build the Scrimba page (using workitem component) ✅
 
     - write content for about section
 

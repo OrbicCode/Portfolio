@@ -22,7 +22,7 @@ export default function WorkItem({ imgUrl, alt, title, subTitle, linkTo }) {
                         <p>{subTitle}</p>
                     </div>
                     <span className={isMouseOver ? styles.showReadMore : styles.readMore}>
-                        Read more
+                        <i className="fa-solid fa-magnifying-glass-arrow-right"></i>
                     </span>
                 </div>
             </div>
