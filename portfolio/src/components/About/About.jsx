@@ -1,8 +1,8 @@
 import styles from './About.module.css'
 
-export default function About() {
+export default function About({ id }) {
     return (
-        <section id='about' className={`${styles.about} section`}>
+        <section id={id} className={`${styles.about} section`}>
             <div className="container">
                 <h2 className={styles.title}>About</h2>
                 <div className={styles.articlesContainer}>
@@ -34,7 +34,7 @@ export default function About() {
                         </p>
                     </div>
                     <div>
-                        <h3 className={styles.articleTitle}>Journey so far</h3>
+                        <h3 className={styles.articleTitle}>Upcoming Projects</h3>
                         <p>
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et

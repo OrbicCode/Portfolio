@@ -2,10 +2,10 @@ import HeaderTop from '../HeaderTop/HeaderTop'
 import Hero from '../Hero/Hero'
 import styles from './Header.module.css'
 
-export default function Header() {
+export default function Header({ id }) {
 
     return (
-        <header id='home' className={`${styles.header} section`}>
+        <header id={id} className={`${styles.header} section`}>
             <div className='container'>
 
                 <HeaderTop />

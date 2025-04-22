@@ -1,8 +1,8 @@
 import styles from './Contact.module.css'
 
-export default function Contact() {
+export default function Contact({ id }) {
     return (
-        <section className={`${styles.contact} section`}>
+        <section id={id} className={`${styles.contact} section`}>
             <div className='container'>
                 <h2 className={styles.title}>Contact</h2>
                 <h3 className={styles.available}>Available for hire</h3>

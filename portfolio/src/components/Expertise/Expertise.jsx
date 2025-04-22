@@ -2,7 +2,7 @@ import styles from './Expertise.module.css'
 import ExpertiseItem from '../ExpertiseItem/ExpertiseItem'
 import SkillItem from '../SkillItem/SkillItem'
 
-export default function Expertise() {
+export default function Expertise({ id }) {
 
     const expertiseItemText = [
         {
@@ -39,7 +39,7 @@ export default function Expertise() {
     })
 
     return (
-        <section className={`${styles.expertise} section`}>
+        <section id={id} className={`${styles.expertise} section`}>
             <div className='container'>
                 <h2 className={styles.title}>Expertise</h2>
                 <div className={styles.expertiseItemContainer}>

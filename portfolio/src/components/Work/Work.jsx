@@ -2,7 +2,7 @@ import styles from './Work.module.css'
 import WorkItem from '../WorkItem/WorkItem'
 import projectData from '../../data/projectData'
 
-export default function Work() {
+export default function Work({ id }) {
 
     const workItemEl = projectData.map((item, index) => {
         return <WorkItem 
@@ -17,7 +17,7 @@ export default function Work() {
     })
 
     return (
-        <section className={`${styles.work} section`}>
+        <section id={id} className={`${styles.work} section`}>
             <div className='container'>
                 <h2 className={styles.title}>Work</h2>
                 <div className={styles.workItemsContainer}>

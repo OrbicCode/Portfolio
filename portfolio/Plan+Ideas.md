@@ -7,7 +7,6 @@
 
 - HeaderTop
     - change height at breakpoints
-    - change logo into link to home page
 
 - Navigation
     - hover color on links ✅
@@ -15,6 +14,7 @@
     - adjust hover times
     - fix navigation to scroll to section
     - convert to NavLink
+    - change logo into link to home page
 
 - About
     - max-width on text ✅
