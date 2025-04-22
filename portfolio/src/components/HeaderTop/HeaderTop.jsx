@@ -3,7 +3,7 @@ import styles from './HeaderTop.module.css'
 import Navigation from "../Navigation/Navigation"
 import profileImage from '../../assets/cross-arm-profile.jpg'
 
-export default function HeaderTop() {
+export default function HeaderTop({ isScrolled }) {
 
     const [isNavOpen, setIsNavOpen] = useState(false)
 
@@ -12,9 +12,14 @@ export default function HeaderTop() {
     }
 
     return (
-        <div className={styles.headerTop}>
-            <div className={styles.logo}>
-                <img src={profileImage} alt="a profile picture of James O'Kane" className={styles.profileImg} />
+        <div 
+            className={`${styles.headerTop} ${isScrolled ? styles.fixedHeader : ""}`}>
+            <div className={`${styles.logo} ${isScrolled ? styles.hidden : ""}`}>
+                <img
+                    src={profileImage} 
+                    alt="a profile picture of James O'Kane with his arms crossed" 
+                    className={`${styles.profileImg}`} 
+                />
                 <span className={styles.logoTitle}>James O'Kane</span>
             </div>
             <button onClick={toggleNav} className={styles.burger}>

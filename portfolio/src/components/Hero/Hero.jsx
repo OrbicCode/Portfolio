@@ -1,8 +1,8 @@
 import styles from './Hero.module.css'
 
-export default function Hero() {
+export default function Hero({ isScrolled }) {
     return (
-        <div className={styles.hero}>
+        <div className={`${styles.hero} ${isScrolled ? styles.paddingTop : ""}`}>
             <span className={styles.brackets}>{'<>'}</span>
             <h1 className={styles.title}>James O<span className={styles.heroTextFlare}>'</span>Kane</h1>
             <h2 className={styles.subtitle}>Software Engineer <span className={styles.heroTextFlare}>|</span> Web Developer</h2>

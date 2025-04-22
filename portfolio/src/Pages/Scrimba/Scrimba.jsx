@@ -3,7 +3,7 @@ import WorkItem from "../../components/WorkItem/WorkItem"
 import scrimbaProjectData from '../../data/scrimbaProjectData'
 import styles from './Scrimba.module.css'
 
-export default function Scrimba() {
+export default function Scrimba({ isScrolled }) {
     
     const reversedScrimbaProjects = [...scrimbaProjectData].reverse()
 
@@ -20,9 +20,9 @@ export default function Scrimba() {
         ) 
     })
     return (
-        <section className={`${styles.scrimba} section`}>
+        <section className={`${styles.scrimba} ${isScrolled ? styles.paddingTop : ""} section`}>
             <div className="container">
-                <HeaderTop />
+                <HeaderTop isScrolled={isScrolled} />
                 <h1 className={styles.title}>Scrimba Projects</h1>
                 <h2 className={styles.subtitle}>Check out The projects I have done during my Scrimba Courses</h2>
                 <div className={styles.workItemsContainer}>

@@ -9,6 +9,10 @@
     background-attachment: fixed;
 }
 
+.paddingTop {
+    padding-top: 60px;
+}
+
 .title,
 .subtitle {
     text-align: center;
