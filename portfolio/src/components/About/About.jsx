@@ -9,6 +9,7 @@ export default function About({ id }) {
                     <div>
                         <h3 className={styles.articleTitle}>Journey so far</h3>
                         <p>
+                        Ex Trainer and bartender turned software engineer and web developer. I developed confidence, learned how to be a team-leader and member 
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et
                         dolore magna aliqua. Ut enim ad minim veniam,
