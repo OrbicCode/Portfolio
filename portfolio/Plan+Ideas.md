@@ -15,6 +15,7 @@
     - fix navigation to scroll to section ✅
     - convert to NavLink ✅
     - change logo into link to home page ✅
+    - fix nav color once clicked
 
 - About
     - max-width on text ✅
@@ -60,7 +61,7 @@
     - check h heirachy ✅
     - adjust hover times to be consistant ✅
     - organise images into a file to use for data
-    - fix image quality and sizes
+    - optimize image sizes and formats
     - change h2 to white?
     - 404 not found page
 

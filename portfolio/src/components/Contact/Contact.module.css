@@ -40,13 +40,13 @@
 
 .email {
     font-size: 1.5rem;
-    color: var(--moss);
+    color: var(--blue);
     transition: color 0.3s ease-in-out;
 }
 
 .email:hover,
 .email:focus {
-    color: var(--blue);
+    color: var(--moss);
 }
 
 .linkContainer {
@@ -55,14 +55,15 @@
 
 .links {
     font-size: 1.25rem;
-    color: var(--moss);
+    text-decoration: none;
+    color: var(--blue);
     display: block;
     transition: color 0.3s ease-in-out;
 }
 
 .links:hover,
 .links:focus {
-    color: var(--blue);
+    color: var(--moss);
 }
 
 @media (min-width: 768px) {

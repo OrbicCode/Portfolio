@@ -1,8 +1,8 @@
-import reelMagicHome from '../assets/reelMagic-home.png'
-import reeLMagic1 from '../assets/reelMagic-1.png'
-import dewIt from '../assets/dew-it.png'
-import ecoSage from '../assets/ecoSage.jpeg'
-import scrimba from '../assets/scrimba.jpg'
+import {reelMagicHome, reelMagicReviews,
+        dewIt, 
+        ecoSage, 
+        scrimbaLogo
+    } from '../assets/projects'
 
 const projectData = [
     {
@@ -24,7 +24,7 @@ const projectData = [
                 alt: "ReelMagic homepage.",
             },
             {
-                src: reeLMagic1,
+                src: reelMagicReviews,
                 alt: "On the left an image of the dynamic review system. On the right an image of a movie information page.",
             },
         ],
@@ -93,7 +93,7 @@ const projectData = [
                         aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
         coverImage: {
-            src: scrimba,
+            src: scrimbaLogo,
             alt: "The Scrimba logo"
         },
         linkTo: "/scrimba",
