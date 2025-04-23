@@ -15,7 +15,6 @@
     - fix navigation to scroll to section ✅
     - convert to NavLink ✅
     - change logo into link to home page ✅
-    - fix nav color once clicked
 
 - About
     - max-width on text ✅
@@ -63,13 +62,17 @@
     - organise images into a file to use for data
     - optimize image sizes and formats
     - change h2 to white?
+    - fix nav color once clicked
     - 404 not found page
+    - fix project data order
+    - fix project descriptions
 
     - change section layout name to main-grid 
     - format CSS
     - check classNames for readability
 
-    - add a scroll to top button or a fixed header
+    - add a scroll to top button 
+    - or a fixed header ✅
 
     - build the project page (using skill item component) ✅
     - build the Scrimba page (using workitem component) ✅
