@@ -46,7 +46,6 @@
     - Responsiveness ✅
     - h1 size increase ✅
     - Link hover effects and responsiveness ✅
-    - click on images to enlarge
 
 - General
     - Find best way to approach the layout ✅
@@ -56,10 +55,10 @@
     - convert skill item into component ✅
     - convert work item into component ✅
     - 768px navigation change ✅
-    - check cursor pointer on all links and buttons
-    - add text-shadow to text with picture background
-    - check h heirachy 
-    - adjust hover times to be consistant
+    - check cursor pointer on all links and buttons ✅
+    - add text-shadow to text with picture background ✅
+    - check h heirachy ✅
+    - adjust hover times to be consistant ✅
     - organise images into a file to use for data
     - fix image quality and sizes
     - change h2 to white?
