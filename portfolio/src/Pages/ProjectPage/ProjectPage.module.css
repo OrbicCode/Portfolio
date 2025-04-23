@@ -1,12 +1,12 @@
 .title {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .title::after {
     content: "";
     display: block;
     height: 2px;
-    width: 40%;
+    width: 60%;
     margin: 20px 0;
     background: white;
 }
@@ -14,10 +14,6 @@
 .projectInfo {
     display: flex;
     flex-direction: column;
-}
-
-.projectMainInfo {
-
 }
 
 .subTitle {
@@ -63,7 +59,7 @@
     color: white;
     text-decoration: none;
     background: var(--purple);
-    padding:1em 2.5em
+    padding: 1em 2.5em
 }
 
 .imageDisplay {
@@ -94,6 +90,10 @@
 
     .projectMainInfo {
         min-width: 300px;
+    }
+
+    .title {
+        font-size: 4.5rem;
     }
 
     .techUsed {

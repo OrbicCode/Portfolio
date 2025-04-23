@@ -40,11 +40,11 @@
     - add links to different sites ✅
 
 - Project Page
-    - build data for propject page
+    - build data for propject page ✅
     - skillItem map ✅
     - Then Phone layout and typography ✅
     - Responsiveness ✅
-    - h1 size increase
+    - h1 size increase ✅
     - Link hover effects and responsiveness
     - click on images to enlarge
 
