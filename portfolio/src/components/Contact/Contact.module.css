@@ -15,7 +15,7 @@
     position: relative;
     z-index: 1;
     width: fit-content;
-    margin: 1em auto 1.5em;
+    margin: 1em auto 1em;
 }
 
 .title::after {
@@ -39,10 +39,29 @@
 
 .email {
     font-size: 1.5rem;
+    color: var(--moss);
+    transition: color 0.3s ease-in-out;
+}
+
+.email:hover,
+.email:focus {
+    color: var(--blue);
+}
+
+.linkContainer {
+    margin-top: 1.5em;
 }
 
 .links {
     font-size: 1.25rem;
+    color: var(--moss);
+    display: block;
+    transition: color 0.3s ease-in-out;
+}
+
+.links:hover,
+.links:focus {
+    color: var(--blue);
 }
 
 @media (min-width: 768px) {

@@ -30,22 +30,21 @@ function App() {
   return (
     <Router>
       <div className="layout">
-        {/* <HeaderTop isScrolled={isScrolled} /> */}
-          <ScrollHandler>
-            <Routes>
-              <Route path="/" element={
-                <>
-                  <Header id="home" isScrolled={isScrolled}/>
-                  <About id="about" />
-                  <Expertise id="expertise" />
-                  <Work id="work" />
-                  <Contact id="contact" />
-                </>
-              } />
-              <Route path="/projects/:id" element={<ProjectPage />} />
-              <Route path="/scrimba" element={<Scrimba isScrolled={isScrolled} />} />
-            </Routes>
-          </ScrollHandler>
+        <ScrollHandler>
+          <Routes>
+            <Route path="/" element={
+              <>
+                <Header id="home" isScrolled={isScrolled}/>
+                <About id="about" />
+                <Expertise id="expertise" />
+                <Work id="work" />
+                <Contact id="contact" />
+              </>
+            } />
+            <Route path="/projects/:id" element={<ProjectPage />} />
+            <Route path="/scrimba" element={<Scrimba isScrolled={isScrolled} />} />
+          </Routes>
+        </ScrollHandler>
       </div>
     </Router>
   )

@@ -4,9 +4,9 @@ import projectData from '../../data/projectData'
 
 export default function Work({ id }) {
 
-    const workItemEl = projectData.map((item, index) => {
+    const workItemEl = projectData.map((item) => {
         return <WorkItem 
-                    key={index}
+                    key={item.title}
                     id={item.id}
                     imgUrl={item.coverImage.src}
                     alt={item.coverImage.alt}

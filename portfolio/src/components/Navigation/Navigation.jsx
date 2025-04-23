@@ -22,11 +22,11 @@ export default function Navigation({ toggleNav, isOpen }) {
                 <i className="fa-solid fa-xmark"></i>
             </button>
             <ul>
-                <li><NavLink to='/#home' onClick={() => handleScroll('home')}><span>{'<'}</span> Home <span>{'>'}</span></NavLink></li>
-                <li><NavLink to='/#about' onClick={() => handleScroll('about')}><span>{'<'}</span> About <span>{'>'}</span></NavLink></li>
-                <li><NavLink to='/#expertise' onClick={() => handleScroll('expertise')}><span>{'<'}</span> Expertise <span>{'>'}</span></NavLink></li>
-                <li><NavLink to='/#work' onClick={() => handleScroll('work')}><span>{'<'}</span> Work <span>{'>'}</span></NavLink></li>
-                <li><NavLink to='/#contact' onClick={() => handleScroll('contact')}><span>{'<'}</span> Contact <span>{'>'}</span></NavLink></li>
+                <li><NavLink to='/#home' onClick={() => handleScroll('home')}><span className={styles.brackets}>{'<'}</span> Home <span className={styles.brackets}>{'>'}</span></NavLink></li>
+                <li><NavLink to='/#about' onClick={() => handleScroll('about')}><span className={styles.brackets}>{'<'}</span> About <span className={styles.brackets}>{'>'}</span></NavLink></li>
+                <li><NavLink to='/#expertise' onClick={() => handleScroll('expertise')}><span className={styles.brackets}>{'<'}</span> Expertise <span className={styles.brackets}>{'>'}</span></NavLink></li>
+                <li><NavLink to='/#work' onClick={() => handleScroll('work')}><span className={styles.brackets}>{'<'}</span> Work <span className={styles.brackets}>{'>'}</span></NavLink></li>
+                <li><NavLink to='/#contact' onClick={() => handleScroll('contact')}><span className={styles.brackets}>{'<'}</span> Contact <span className={styles.brackets}>{'>'}</span></NavLink></li>
             </ul>
         </nav>
     )

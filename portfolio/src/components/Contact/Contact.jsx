@@ -12,10 +12,12 @@ export default function Contact({ id }) {
                 <br />
                     Drop me an email or send me a message on LinkedIn 
                 </p>
-                <p className={styles.email}>orbiccode@gmail.com</p>
-                <div>
-                    <p className={styles.links}>LinkedIn</p>
-                    <p className={styles.links}>GitHub</p>
+                <a href='mailto:orbiccode@gmail.com' className={styles.email}>
+                    orbiccode@gmail.com
+                </a>
+                <div className={styles.linkContainer}>
+                    <a href='https://www.linkedin.com/in/james-o-kane-570b71314/' target='_blank' className={styles.links}>LinkedIn</a>
+                    <a href='https://github.com/Orbiccode' target='_blank' className={styles.links}>GitHub</a>
                 </div>
             </div>
         </section>

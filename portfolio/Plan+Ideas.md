@@ -6,15 +6,15 @@
     - change all font-sizes between screens ✅
 
 - HeaderTop
-    - change height at breakpoints
+    - change height at breakpoints ✅
 
 - Navigation
     - hover color on links ✅
     - responsive typography ✅
-    - adjust hover times
-    - fix navigation to scroll to section
-    - convert to NavLink
-    - change logo into link to home page
+    - adjust hover times ✅
+    - fix navigation to scroll to section ✅
+    - convert to NavLink ✅
+    - change logo into link to home page ✅
 
 - About
     - max-width on text ✅
@@ -26,18 +26,18 @@
 - SkillItem
 
 - Work
-    - change key of workitem from index to title
-    - 1024px grid change
+    - change key of workitem from index to title ✅
+    - 1024px grid change ✅
 
 - WorkItem
     - change read more text size ✅
     - fix responsiveness of the info box size ✅
 
 - Contact
-    - format typography
-    - format typography for different screen sizes
-    - find out how to add email link
-    - add links to different sites
+    - format typography ✅
+    - format typography for different screen sizes ✅
+    - find out how to add email link ✅
+    - add links to different sites ✅
 
 - Project Page
     - build data for propject page
