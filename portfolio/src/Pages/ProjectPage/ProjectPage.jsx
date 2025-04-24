@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { useParams, Link } from "react-router-dom"
+import { useParams, Link, useNavigate } from "react-router-dom"
 import SkillItem from "../../components/SkillItem/SkillItem"
 import HeaderTop from "../../components/HeaderTop/HeaderTop"
 import projectData from "../../data/projectData"
@@ -9,6 +9,7 @@ import styles from './ProjectPage.module.css'
 export default function ProjectPage() {
     const { id } = useParams()
     const [project, setProject] = useState(null)
+    const navigate = useNavigate()
 
     useEffect(() => {
         const combinedData = [...projectData, ...scrimbaProjectData]
@@ -28,11 +29,11 @@ export default function ProjectPage() {
     }
 
     if (!project) {
-        return <p>Not Found</p>
+        return navigate('/not-found')
     }
 
     const imageDisplay = project.projectImages.map((image, index) => {
-        return <img key={index} src={image.src} alt={image.alt} />
+        return <img key={index} src={image.src} alt={image.alt} loading="lazy"/>
     })
 
     const techUsedDisplay = project.techUsed.map(tech => {

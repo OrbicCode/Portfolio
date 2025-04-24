@@ -66,11 +66,10 @@
     - go to top of page when scrimba or projectpage is clicked ✅
     - change h2 to white? ✅
     - fix nav color once clicked ✅
-    - 404 not found page
+    - 404 not found page ✅
 
-    - change section layout name to main-grid 
-    - format CSS
-    - check classNames for readability
+    - format CSS ✅
+    - check classNames for readability ✅
 
     - add a scroll to top button 
     - or a fixed header ✅

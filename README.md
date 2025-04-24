@@ -23,6 +23,4 @@ This all began with the idea that I could take an image as inspiration and try t
 
 <img width="75%" alt="Colour Palette" src="https://github.com/user-attachments/assets/d1b21029-90a1-4e08-b81e-ae841894b213" />
 
-## Tech
-
 

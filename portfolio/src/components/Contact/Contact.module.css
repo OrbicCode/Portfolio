@@ -38,15 +38,22 @@
     font-size: 1.125rem;
 }
 
+.email,
+.links {
+    color: var(--beige);
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
 .email {
     font-size: 1.5rem;
-    color: var(--beige);
-    transition: color 0.3s ease-in-out;
 }
 
 .email:hover,
-.email:focus {
+.email:focus,
+.links:hover,
+.links:focus {
     color: var(--moss);
+    transform: scale(1.1);
 }
 
 .linkContainer {
@@ -56,14 +63,7 @@
 .links {
     font-size: 1.25rem;
     text-decoration: none;
-    color: var(--beige);
     display: block;
-    transition: color 0.3s ease-in-out;
-}
-
-.links:hover,
-.links:focus {
-    color: var(--moss);
 }
 
 @media (min-width: 768px) {

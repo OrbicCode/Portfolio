@@ -9,6 +9,7 @@ import ProjectPage from './Pages/ProjectPage/ProjectPage'
 import Scrimba from './Pages/Scrimba/Scrimba'
 import HeaderTop from './components/HeaderTop/HeaderTop'
 import ScrollHandler from './components/ScrollHandler';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import NotFound from './Pages/NotFound/NotFound'
 import './App.css'
 
@@ -45,8 +46,10 @@ function App() {
             <Route path="/projects/:id" element={<ProjectPage />} />
             <Route path="/scrimba" element={<Scrimba isScrolled={isScrolled} />} />
             <Route path='*' element={<NotFound />} />
+            <Route path="/not-found" element={<NotFound />} />
           </Routes>
         </ScrollHandler>
+        <ScrollToTop />
       </div>
     </Router>
   )

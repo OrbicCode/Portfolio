@@ -15,7 +15,7 @@ export default function WorkItem({ imgUrl, alt, title, subTitle, linkTo }) {
                 onMouseEnter={() => setIsMouseOver(true)}
                 onMouseLeave={() => setIsMouseOver(false)}
             >
-                <img src={imgUrl} alt={alt} />
+                <img src={imgUrl} alt={alt} loading="lazy"/>
                 <div className={styles.itemText}>
                     <div className={styles.info}>
                         <h3>{title}</h3>
