@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlassArrowRight } from '@fortawesome/free-solid-svg-icons'
 import styles from './WorkItem.module.css'
 
 export default function WorkItem({ imgUrl, alt, title, subTitle, linkTo }) {
@@ -22,7 +24,7 @@ export default function WorkItem({ imgUrl, alt, title, subTitle, linkTo }) {
                         <p>{subTitle}</p>
                     </div>
                     <span className={isMouseOver ? styles.showReadMore : styles.readMore}>
-                        <i className="fa-solid fa-magnifying-glass-arrow-right"></i>
+                        <FontAwesomeIcon icon={faMagnifyingGlassArrowRight} className={styles.icon} />
                     </span>
                 </div>
             </div>

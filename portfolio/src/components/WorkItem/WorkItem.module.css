@@ -3,7 +3,7 @@
     text-decoration: unset;
 }
 
-.item{
+.item {
     background: var(--jet);
     flex: 1;
     cursor: pointer;
@@ -35,7 +35,7 @@
     color: rgba(255, 255, 255, 0.75);
 }
 
-.itemText i {
+.icon {
     font-size: 1.5rem;
     overflow: hidden;
 }

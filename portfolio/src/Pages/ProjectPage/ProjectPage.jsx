@@ -24,7 +24,7 @@ export default function ProjectPage() {
         backgroundRepeat: 'no-repeat',
         backgroundColor: 'rgba(0, 0, 0, 0.8)',
         backgroundBlendMode: 'overlay',
-        // backgroundAttachment: 'fixed',
+        backgroundAttachment: 'fixed',
         height: '100vh'
     }
 

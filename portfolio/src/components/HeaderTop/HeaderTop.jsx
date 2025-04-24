@@ -1,5 +1,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import styles from './HeaderTop.module.css'
 import Navigation from "../Navigation/Navigation"
 import profileImage from '../../assets/general/cross-arm-profile.png'
@@ -23,7 +25,7 @@ export default function HeaderTop({ isScrolled }) {
                 <span className={styles.logoTitle}>James O'Kane</span>
             </Link>
             <button onClick={toggleNav} className={styles.burger}>
-                <i className="fa-solid fa-bars"></i>
+                <FontAwesomeIcon icon={faBars} />
             </button>
         
             <Navigation 

@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAnglesUp } from '@fortawesome/free-solid-svg-icons'
 import styles from './ScrollToTop.module.css'
 
 export default function ScrollToTop() {
@@ -26,7 +28,7 @@ const scrollToTop = () => {
 
     return (
         <button onClick={scrollToTop} className={`${styles.button} ${isVisible ? styles.visible : ""}`}>
-            <i className="fa-solid fa-angles-up"></i>
+            <FontAwesomeIcon icon={faAnglesUp} />
         </button>
     )
 }

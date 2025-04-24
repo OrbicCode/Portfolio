@@ -77,7 +77,7 @@
     - build the project page (using skill item component) ✅
     - build the Scrimba page (using workitem component) ✅
 
-    - write content for about section
+    - write content for about section ✅
 
 ## Ideas
 

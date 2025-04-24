@@ -1,4 +1,6 @@
 import { NavLink, useNavigate } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 import styles from './Navigation.module.css';
 
 export default function Navigation({ toggleNav, isOpen }) {
@@ -18,7 +20,7 @@ export default function Navigation({ toggleNav, isOpen }) {
     return (
         <nav className={navClasses}>
             <button onClick={toggleNav}>
-                <i className="fa-solid fa-xmark"></i>
+                <FontAwesomeIcon icon={faXmark} />
             </button>
             <ul>
                 <li>
