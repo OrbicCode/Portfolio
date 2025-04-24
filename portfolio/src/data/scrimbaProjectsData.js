@@ -78,21 +78,21 @@ const scrimbaProjectsData = [
             id: "assembly-endgame",
             title: "Assembly Endgame",
             subTitle: "A hangman style game",
-            description: `A React site build to practice using useRef, useState and useEffect
+            description: `A hangman style game built with React to practice using useRef, useState and useEffect
                             to store information and change the appearance of items
                             in the DOM`,
             coverImage: {
                 src: assemblyEndgameWin,
-                alt: "my learning journal, responsive site"
+                alt: "The page filled with confetti because the game has been won."
             },
             projectImages: [
                 {
                     src: assemblyEndgameWin,
-                    alt: "my learning journal, responsive site"
+                    alt: "The page filled with confetti because the game has been won."
                 },
                 {
                     src: assemblyEndgameLoss,
-                    alt: "the about me page of my learning journal"
+                    alt: "The page when the game has been lost."
                 }
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React"],
@@ -104,17 +104,17 @@ const scrimbaProjectsData = [
             id: "tenzies",
             title: "Tenzies",
             subTitle: "The game Tenzies",
-            description: `A React site build to practice using useRef, useState and useEffect
+            description: `The game tenzies build with React to practice using useRef, useState and useEffect
                             to store information and change the appearance of items
                             in the DOM`,
             coverImage: {
                 src: tenziesWin,
-                alt: "my learning journal, responsive site"
+                alt: "The page displayeing confetti because the game has been won."
             },
             projectImages: [
                 {
                     src: tenziesWin,
-                    alt: "my learning journal, responsive site"
+                    alt: "The page displayeing confetti because the game has been won."
                 },
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React"],
