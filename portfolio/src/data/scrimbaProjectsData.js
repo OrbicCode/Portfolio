@@ -3,7 +3,8 @@ import {vanLifeHome, vanLifeInfo, vanLifeVans, vanLifeLogin,
         assemblyEndgameWin, assemblyEndgameLoss,
         tenziesWin,
         oldagramTop, oldagramBottom,
-        twimba
+        twimba,
+        colorGeneratorAnalogic, colorGeneratorMono
     } from "../assets/scrimba"
 
 const scrimbaProjectsData = [
@@ -172,16 +173,16 @@ const scrimbaProjectsData = [
                             I also practiced getting info from an input to place 
                             in a get request string`,
             coverImage: {
-                src: "",
+                src: colorGeneratorAnalogic,
                 alt: "my learning journal, responsive site"
             },
             projectImages: [
                 {
-                    src: "",
+                    src: colorGeneratorAnalogic,
                     alt: "my learning journal, responsive site"
                 },
                 {
-                    src: "",
+                    src: colorGeneratorMono,
                     alt: "the about me page of my learning journal"
                 }
             ],

@@ -10,6 +10,8 @@ import tenziesWin from './tenzies-win.png'
 import oldagramTop from './oldagram-top.png'
 import oldagramBottom from './oldagram-bottom.png'
 import twimba from './twimba.png'
+import colorGeneratorAnalogic from './color-generator-analogic.png'
+import colorGeneratorMono from './color-generator-mono.png'
 
 export {
     vanLifeHome,
@@ -23,5 +25,7 @@ export {
     tenziesWin,
     oldagramTop,
     oldagramBottom,
-    twimba
+    twimba,
+    colorGeneratorAnalogic,
+    colorGeneratorMono
 }
