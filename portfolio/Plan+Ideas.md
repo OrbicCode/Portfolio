@@ -63,6 +63,7 @@
     - fix project data order
     - fix project descriptions
     - optimize image sizes and formats
+    - go to top of page when scrimba or projectpage is clicked
     - change h2 to white?
     - fix nav color once clicked
     - 404 not found page

@@ -3,7 +3,7 @@ import { useParams, Link } from "react-router-dom"
 import SkillItem from "../../components/SkillItem/SkillItem"
 import HeaderTop from "../../components/HeaderTop/HeaderTop"
 import projectData from "../../data/projectData"
-import scrimbaProjectData from "../../data/scrimbaProjectData"
+import scrimbaProjectData from "../../data/scrimbaProjectsData"
 import styles from './ProjectPage.module.css'
 
 export default function ProjectPage() {

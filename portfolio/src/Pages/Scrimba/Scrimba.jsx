@@ -1,13 +1,11 @@
 import HeaderTop from "../../components/HeaderTop/HeaderTop"
 import WorkItem from "../../components/WorkItem/WorkItem"
-import scrimbaProjectData from '../../data/scrimbaProjectData'
+import scrimbaProjectsData from '../../data/scrimbaProjectsData'
 import styles from './Scrimba.module.css'
 
 export default function Scrimba({ isScrolled }) {
-    
-    const reversedScrimbaProjects = [...scrimbaProjectData].reverse()
 
-    const workItemDisplay = reversedScrimbaProjects.map(project => {
+    const workItemDisplay = scrimbaProjectsData.map(project => {
         return (
             <WorkItem
                 key={project.id}
