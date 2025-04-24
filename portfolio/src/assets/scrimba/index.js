@@ -18,6 +18,8 @@ import jimmysDinerHome from './jimmysDiner-home.png'
 import jimmysDinerItems from './jimmysDiner-items.png'
 import jimmysDinerPayment from './jimmysDiner-payment.png'
 import unitConverter from './unitConverter.png'
+import passwordGenerator from './passwordGenerator.png'
+import scoreboard from './scoreboard.png'
 
 export {
     vanLifeHome,
@@ -39,5 +41,7 @@ export {
     jimmysDinerHome,
     jimmysDinerItems,
     jimmysDinerPayment,
-    unitConverter
+    unitConverter,
+    passwordGenerator,
+    scoreboard
 }

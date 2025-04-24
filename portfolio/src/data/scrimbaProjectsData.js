@@ -7,7 +7,9 @@ import {vanLifeHome, vanLifeInfo, vanLifeVans, vanLifeLogin,
         colorGeneratorAnalogic, colorGeneratorMono,
         myLearningJournalHome, myLearningJournalAbout,
         jimmysDinerHome, jimmysDinerItems, jimmysDinerPayment,
-        unitConverter
+        unitConverter,
+        passwordGenerator,
+        scoreboard
     } from "../assets/scrimba"
 
 const scrimbaProjectsData = [
@@ -280,12 +282,12 @@ const scrimbaProjectsData = [
                             JavaScript functions, Math.random and turning a figma design file
                             into code`,
             coverImage: {
-                src: "",
+                src: passwordGenerator,
                 alt: "a random password generator"
             },
             projectImages: [
                 {
-                    src: "",
+                    src: passwordGenerator,
                     alt: "a random password generator",
                 },
             ],
@@ -302,17 +304,13 @@ const scrimbaProjectsData = [
                             JavaScript functions and turning a figma design file
                             into code`,
             coverImage: {
-                src: "",
+                src: scoreboard,
                 alt: "a basketball scoreboard"
             },
             projectImages: [
                 {
-                    src: "",
+                    src: scoreboard,
                     alt: "a basketball scoreboard",
-                },
-                {
-                    src: "",
-                    alt: "figma design file",
                 },
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
