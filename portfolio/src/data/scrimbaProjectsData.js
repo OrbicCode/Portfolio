@@ -2,7 +2,8 @@ import {vanLifeHome, vanLifeInfo, vanLifeVans, vanLifeLogin,
         movieWatchlistSearch, movieWatchlistWl,
         assemblyEndgameWin, assemblyEndgameLoss,
         tenziesWin,
-        oldagramTop, oldagramBottom
+        oldagramTop, oldagramBottom,
+        twimba
     } from "../assets/scrimba"
 
 const scrimbaProjectsData = [
@@ -148,12 +149,12 @@ const scrimbaProjectsData = [
                             then adding code to make them interactive. Also practicing
                             turning a Figma design file into code`,
             coverImage: {
-                src: "",
+                src: twimba,
                 alt: "twimba, atwiiter clone."
             },
             projectImages: [
                 {
-                    src: "",
+                    src: twimba,
                     alt: "twimba, atwiiter clone."
                 },
             ],

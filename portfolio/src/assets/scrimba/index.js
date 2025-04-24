@@ -9,6 +9,7 @@ import assemblyEndgameLoss from './assemblyEndgame-loss.png'
 import tenziesWin from './tenzies-win.png'
 import oldagramTop from './oldagram-top.png'
 import oldagramBottom from './oldagram-bottom.png'
+import twimba from './twimba.png'
 
 export {
     vanLifeHome,
@@ -21,5 +22,6 @@ export {
     assemblyEndgameLoss,
     tenziesWin,
     oldagramTop,
-    oldagramBottom
+    oldagramBottom,
+    twimba
 }
