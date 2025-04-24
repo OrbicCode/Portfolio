@@ -60,12 +60,12 @@
     - check h heirachy ✅
     - adjust hover times to be consistant ✅
     - organise images into a file to use for data
+    - fix project data order
+    - fix project descriptions
     - optimize image sizes and formats
     - change h2 to white?
     - fix nav color once clicked
     - 404 not found page
-    - fix project data order
-    - fix project descriptions
 
     - change section layout name to main-grid 
     - format CSS

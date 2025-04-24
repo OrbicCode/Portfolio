@@ -74,6 +74,9 @@
 }
 
 @media (min-width: 768px) {
+    .fixedHeader {
+        padding: 1.5em 3em
+    }
 
     .logoTitle {
         font-size: 1.1rem;
