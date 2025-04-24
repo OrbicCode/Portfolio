@@ -45,12 +45,12 @@ const projectData = [
                        for updates coming soon.`,
         coverImage: {
             src: dewIt,
-            alt: "a Star Wars themed to-do list with a joke widget and Nasa photo of the day."
+            alt: "a Star Wars themed to-do list with a joke widget and NASA photo of the day."
         },
         projectImages: [
             {
                 src: dewIt,
-                alt: "a Star Wars themed to-do list with a joke widget and Nasa photo of the day.",
+                alt: "a Star Wars themed to-do list with a joke widget and NASA photo of the day.",
             }
         ],
         techUsed: ["HTML", "CSS", "JavaScript", "REST APIs", "Netlify"],

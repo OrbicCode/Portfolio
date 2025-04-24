@@ -71,7 +71,7 @@
     - format CSS ✅
     - check classNames for readability ✅
 
-    - add a scroll to top button 
+    - add a scroll to top button ✅
     - or a fixed header ✅
 
     - build the project page (using skill item component) ✅

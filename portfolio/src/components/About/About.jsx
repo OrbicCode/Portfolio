@@ -7,58 +7,60 @@ export default function About({ id }) {
                 <h2 className={styles.title}>About</h2>
                 <div className={styles.articlesContainer}>
                     <div>
-                        <h3 className={styles.articleTitle}>Journey so far</h3>
-                        <p>
-                        Ex Trainer and bartender turned software engineer and web developer. I developed confidence, learned how to be a team-leader and member 
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu 
-                        fugiat nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui officia 
-                        deserunt mollit anim id est laborum."
-                        <br />
-                        <br />
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu 
-                        fugiat nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui officia 
-                        deserunt mollit anim id est laborum."
+                        <h3 className={styles.articleTitle}>Who Am I?</h3>
+                        <p> 
+                            I am a software engineer/web developer based in London, UK. 
+                            <br />
+                            I am a graduate of the amazing School of Code, where I solidified 
+                            my desire to code. I learned a lot about web development, software 
+                            engineering and dev ops. How to be an agile team player and a presenter.
+                            <br />
+                            I love working in both front-end and back-end. Nailing a Figma design 
+                            file by coding it up is super fun.
+                            <br />
+                            I love the varying challenges that come my way, hitting my head against 
+                            the wall while solving them, playing Whack-A-Mole with bugs, slowly 
+                            trying to shake off this imposter syndrome.
+
+                            <br />
+                            <br />
+
+                            I am currently looking to be hired in my first role, 
+                            where my eager fingers can be set free to contribute to something cool.
+                            My training and bartending days have given me a "unique set of skills"
+                            that I bring with me to be an avid team member and contributor.
+
+                            <br />
+                            <br />
+
+                            Check out some of my projects in the Work section below.               
+                            <br />
+                            I have been going through the Scrimba courses to keep myself 
+                            on my toes and creating. I have listed the projects I have done below as well.
                         </p>
                     </div>
                     <div>
                         <h3 className={styles.articleTitle}>Upcoming Projects</h3>
                         <p>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu 
-                        fugiat nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui officia 
-                        deserunt mollit anim id est laborum."
-                        <br />
-                        <br />
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit 
-                        in voluptate velit esse cillum dolore eu 
-                        fugiat nulla pariatur. Excepteur sint occaecat 
-                        cupidatat non proident, sunt in culpa qui officia 
-                        deserunt mollit anim id est laborum."
+                            I am currently in the planning process of making a personal dashboard 
+                            app.
+                            <br />
+                            It will take the lessons learned from my project called Dew It below, 
+                            which is a todo list with API calls to Nasa photo of the day and a 
+                            random joke API.
+                            <br />
+                            I will make it with Next.js and will feature widgets such as a todo 
+                            list, weather, jokes, quotes, news and finance with the background 
+                            being the NASA photo of the day.
+                            <br />
+                            I will also add Authentication and Authorisation as well as potentially 
+                            adding AI features.
+                            <br />
+                            I am planning on testing myself with this project to put together 
+                            everything that I have learned thus far and make a Full-Stack App 
+                            from the ground up.
+                            <br />
+                            Stay tuned for more information coming soon...
                         </p>
                     </div>
                 </div>

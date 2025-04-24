@@ -28,8 +28,14 @@ export default function ProjectPage() {
         height: '100vh'
     }
 
+    useEffect(() => {
+        if (!project) {
+            navigate('/not-found');
+        }
+    }, [project, navigate]);
+    
     if (!project) {
-        return navigate('/not-found')
+        return null;
     }
 
     const imageDisplay = project.projectImages.map((image, index) => {

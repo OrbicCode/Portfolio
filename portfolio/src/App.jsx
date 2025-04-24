@@ -18,13 +18,35 @@ function App() {
   const [isScrolled, setIsScrolled] = useState(false)
 
       useEffect(() => {
-          function handleScroll() {
-              if (window.scrollY > 500) {
-                  setIsScrolled(true)
-              } else {
-                  setIsScrolled(false)
-              }
-          };
+        const saveScrollPosition = () => {
+          sessionStorage.setItem('scrollPosition', window.scrollY);
+        };
+        window.addEventListener('beforeunload', saveScrollPosition);
+        return () => window.removeEventListener('beforeunload', saveScrollPosition);
+      }, []);
+    
+      useEffect(() => {
+        const scrollPosition = sessionStorage.getItem('scrollPosition');
+        if (scrollPosition) {
+          window.scrollTo(0, parseInt(scrollPosition, 10));
+        }
+      }, []);
+
+      useEffect(() => {
+
+        if (window.scrollY > 500) {
+            setIsScrolled(true);
+        } else {
+            setIsScrolled(false);
+        }
+  
+      function handleScroll() {
+          if (window.scrollY > 500) {
+              setIsScrolled(true);
+          } else {
+              setIsScrolled(false);
+          }
+      }
   
           window.addEventListener('scroll', handleScroll)
           return () => window.removeEventListener('scroll', handleScroll)
