@@ -81,9 +81,9 @@
 
 ## Ideas
 
-- check if the font awesome approach is ok or if I need to convert to the react version
+- check if the font awesome approach is ok or if I need to convert to the react version ✅
 
-- add a random colour selection on hover of skill items
+- add a random colour selection on hover of skill items ✅
 
 - add linear-gradients before and after the background images if static 
 

@@ -10,7 +10,8 @@ export default function ExpertiseItem({ title, description }) {
                 {title.split(" ")[1]}
             </h3>
             <p className={styles.description}>
-                {description}
+                {description[0]}<br />
+                {description[1]}
             </p>
         </div>
     )

@@ -36,7 +36,7 @@
 
 .skillsTitle {
     font-size: 2rem;
-    color: var(--beige);
+    color: white;
     margin-top: 2em;
     text-align: center;
 }
@@ -49,6 +49,11 @@
     max-width: 700px;
     margin: 2em auto 4em;
     padding: 0;
+}
+
+.mouseOver {
+    text-align: center;
+    margin: 0;
 }
 
 @media (min-width: 768px) {

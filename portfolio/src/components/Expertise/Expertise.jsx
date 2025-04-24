@@ -7,11 +7,11 @@ export default function Expertise({ id }) {
     const expertiseItemText = [
         {
             title: "Software Development",
-            description: "Experience using JavaScript, TypeScript, Node.js, Express.js"
+            description: ["Experience using: ", "JavaScript, TypeScript, Node.js, Express.js"]
         },
         {
             title: "Web Development",
-            description: "Experience using HTML, CSS, JavaScript, React, Next.js"
+            description: ["Experience using: ", "HTML, CSS, JavaScript, React, Next.js"]
         }
     ]
 
@@ -46,6 +46,7 @@ export default function Expertise({ id }) {
                     {expertiseItemEl}
                 </div>
                 <h3 className={styles.skillsTitle}>Skills</h3>
+                <p className={styles.mouseOver}>( Hint: mouse over them )</p>
                 <ul className={styles.skillsContainer}>
                     {skillItemEl}
                 </ul>

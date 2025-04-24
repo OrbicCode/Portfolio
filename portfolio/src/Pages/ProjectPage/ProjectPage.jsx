@@ -51,6 +51,7 @@ export default function ProjectPage() {
                     </div>
                     <div className={styles.techUsed}>
                         <h2 className={styles.techTitle}>Tech Used</h2>
+                        <p className={styles.mouseOver}>( Hint: mouse over them )</p>
                         <ul className={styles.list}>
                             {techUsedDisplay}
                         </ul>
