@@ -48,7 +48,7 @@ export default function About({ id }) {
                             random joke API.
                             <br />
                             <br />
-                            I will make it with Next.js and will feature widgets such as a todo 
+                            I will make it with Next.js and will feature widgets such as a to-do 
                             list, weather, jokes, quotes, news and finance with the background 
                             being the NASA photo of the day.
                             <br />
