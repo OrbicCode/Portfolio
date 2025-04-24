@@ -1,5 +1,8 @@
 import {vanLifeHome, vanLifeInfo, vanLifeVans, vanLifeLogin,
-        movieWatchlistSearch, movieWatchlistWl
+        movieWatchlistSearch, movieWatchlistWl,
+        assemblyEndgameWin, assemblyEndgameLoss,
+        tenziesWin,
+        oldagramTop, oldagramBottom
     } from "../assets/scrimba"
 
 const scrimbaProjectsData = [
@@ -70,16 +73,16 @@ const scrimbaProjectsData = [
                             to store information and change the appearance of items
                             in the DOM`,
             coverImage: {
-                src: "",
+                src: assemblyEndgameWin,
                 alt: "my learning journal, responsive site"
             },
             projectImages: [
                 {
-                    src: "",
+                    src: assemblyEndgameWin,
                     alt: "my learning journal, responsive site"
                 },
                 {
-                    src: "",
+                    src: assemblyEndgameLoss,
                     alt: "the about me page of my learning journal"
                 }
             ],
@@ -96,18 +99,14 @@ const scrimbaProjectsData = [
                             to store information and change the appearance of items
                             in the DOM`,
             coverImage: {
-                src: "",
+                src: tenziesWin,
                 alt: "my learning journal, responsive site"
             },
             projectImages: [
                 {
-                    src: "",
+                    src: tenziesWin,
                     alt: "my learning journal, responsive site"
                 },
-                {
-                    src: "",
-                    alt: "the about me page of my learning journal"
-                }
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React"],
             linkTo: "/projects/tenzies",
@@ -123,16 +122,16 @@ const scrimbaProjectsData = [
                             JavaScript and using data to map elements onto 
                             the page`,
             coverImage: {
-                src: "",
+                src: oldagramTop,
                 alt: "oldagram, an instagram clone."
             },
             projectImages: [
                 {
-                    src: "",
+                    src: oldagramTop,
                     alt: "oldagram, an instagram clone.",
                 },
                 {
-                    src: "",
+                    src: oldagramBottom,
                     alt: "oldagram, an instagram clone.",
                 },
             ],
