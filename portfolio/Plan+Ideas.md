@@ -90,3 +90,5 @@
 - check if my semantic HTML is ok ✅
 
 - check if 404 can go back to previous page
+
+- add CV link
