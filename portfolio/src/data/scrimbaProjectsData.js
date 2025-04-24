@@ -4,7 +4,9 @@ import {vanLifeHome, vanLifeInfo, vanLifeVans, vanLifeLogin,
         tenziesWin,
         oldagramTop, oldagramBottom,
         twimba,
-        colorGeneratorAnalogic, colorGeneratorMono
+        colorGeneratorAnalogic, colorGeneratorMono,
+        myLearningJournalHome, myLearningJournalAbout,
+        jimmysDinerHome, jimmysDinerItems, jimmysDinerPayment
     } from "../assets/scrimba"
 
 const scrimbaProjectsData = [
@@ -199,16 +201,16 @@ const scrimbaProjectsData = [
                             making the site responsive using media queries as well as 
                             turning a Figma design into code.`,
             coverImage: {
-                src: "",
+                src: myLearningJournalHome,
                 alt: "my learning journal, responsive site"
             },
             projectImages: [
                 {
-                    src: "",
+                    src: myLearningJournalHome,
                     alt: "my learning journal, responsive site"
                 },
                 {
-                    src: "",
+                    src: myLearningJournalAbout,
                     alt: "the about me page of my learning journal"
                 }
             ],
@@ -219,18 +221,26 @@ const scrimbaProjectsData = [
         },
         {
             id: "jimmys-diner",
-            title: "Jimmys Diner",
+            title: "Jimmy's Diner",
             subTitle: "A restaurant ordering app",
             description: `A restaurant ordering app, built to practice adding and removing
                             items from the DOM using event listeners. setting conditions
                             for information to be displayed.`,
             coverImage: {
-                src: "",
+                src: jimmysDinerHome,
                 alt: "a restaurant ordering app called Jimmy's Diner"
             },
             projectImages: [
                 {
-                    src: "",
+                    src: jimmysDinerHome,
+                    alt: "a payment prompt after items have been selected."
+                },
+                {
+                    src: jimmysDinerItems,
+                    alt: "a payment prompt after items have been selected."
+                },
+                {
+                    src: jimmysDinerPayment,
                     alt: "a payment prompt after items have been selected."
                 },
             ],

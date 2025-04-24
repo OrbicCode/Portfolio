@@ -12,6 +12,11 @@ import oldagramBottom from './oldagram-bottom.png'
 import twimba from './twimba.png'
 import colorGeneratorAnalogic from './color-generator-analogic.png'
 import colorGeneratorMono from './color-generator-mono.png'
+import myLearningJournalHome from './myLearningJournal-home.png'
+import myLearningJournalAbout from './myLearningJournal-about.png'
+import jimmysDinerHome from './jimmysDiner-home.png'
+import jimmysDinerItems from './jimmysDiner-items.png'
+import jimmysDinerPayment from './jimmysDiner-payment.png'
 
 export {
     vanLifeHome,
@@ -27,5 +32,10 @@ export {
     oldagramBottom,
     twimba,
     colorGeneratorAnalogic,
-    colorGeneratorMono
+    colorGeneratorMono,
+    myLearningJournalHome,
+    myLearningJournalAbout,
+    jimmysDinerHome,
+    jimmysDinerItems,
+    jimmysDinerPayment
 }
