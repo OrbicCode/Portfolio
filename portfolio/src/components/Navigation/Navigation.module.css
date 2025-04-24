@@ -58,12 +58,19 @@
     display: block;
 }
 
-.nav a:hover,
-.nav a:focus {
-    color: var(--rust)
+.nav a:visited {
+    color: white;
 }
 
+.nav a:hover,
+.nav a:focus {
+    color: var(--moss);
+    outline: none;
+}
 
+.nav a:active {
+    color: var(--rust);
+}
 
 .nav button {
     font-size: 2rem;

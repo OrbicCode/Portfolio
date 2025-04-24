@@ -59,13 +59,13 @@
     - add text-shadow to text with picture background ✅
     - check h heirachy ✅
     - adjust hover times to be consistant ✅
-    - organise images into a file to use for data
-    - fix project data order
-    - fix project descriptions
-    - optimize image sizes and formats
-    - go to top of page when scrimba or projectpage is clicked
-    - change h2 to white?
-    - fix nav color once clicked
+    - organise images into a file to use for data ✅
+    - fix project data order ✅
+    - fix project descriptions ✅
+    - optimize image sizes and formats ✅
+    - go to top of page when scrimba or projectpage is clicked ✅
+    - change h2 to white? ✅
+    - fix nav color once clicked ✅
     - 404 not found page
 
     - change section layout name to main-grid 
@@ -91,3 +91,5 @@
 - add font awesome to readmore
 
 - check if my semantic HTML is ok
+
+- check if 404 can go back to previous page

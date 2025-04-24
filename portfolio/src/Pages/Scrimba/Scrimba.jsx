@@ -1,9 +1,13 @@
+import { useEffect } from "react"
 import HeaderTop from "../../components/HeaderTop/HeaderTop"
 import WorkItem from "../../components/WorkItem/WorkItem"
 import scrimbaProjectsData from '../../data/scrimbaProjectsData'
 import styles from './Scrimba.module.css'
 
 export default function Scrimba({ isScrolled }) {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     const workItemDisplay = scrimbaProjectsData.map(project => {
         return (
