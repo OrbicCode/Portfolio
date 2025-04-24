@@ -30,7 +30,8 @@
     color: var(--moss);
 }
 
-.heroTextFlare {
+.apostrophe,
+.separator {
     color: var(--moss)
 }
 
@@ -56,6 +57,26 @@
     100% {
         transform: translateY(0);
     }
+}
+
+@keyframes float3 {
+    0% {
+        transform: translateY(0);
+    }
+    33% {
+        transform: translateY(10px);
+    }
+    66% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.apostrophe {
+    display: inline-block;
+    animation: float 3s ease-in-out infinite;
 }
 
 .brackets {

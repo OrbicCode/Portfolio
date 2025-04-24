@@ -4,8 +4,8 @@ export default function Hero({ isScrolled }) {
     return (
         <div className={`${styles.hero} ${isScrolled ? styles.paddingTop : ""}`}>
             <span className={styles.brackets}>{'<>'}</span>
-            <h1 className={styles.title}>James O<span className={styles.heroTextFlare}>'</span>Kane</h1>
-            <h2 className={styles.subtitle}>Software Engineer <span className={styles.heroTextFlare}>|</span> Web Developer</h2>
+            <h1 className={styles.title}>James O<span className={styles.apostrophe}>'</span>Kane</h1>
+            <h2 className={styles.subtitle}>Software Engineer <span className={styles.separator}>|</span> Web Developer</h2>
             <span className={styles.brackets}>{'</>'}</span>
         </div>
     )
