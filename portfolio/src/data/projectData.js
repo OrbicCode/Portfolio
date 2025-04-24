@@ -36,12 +36,12 @@ const projectData = [
     {
         id: "dew-it",
         title: "Dew It",
-        subTitle: "Todo List",
+        subTitle: "To-Do List",
         description: `I started this project during my time at School of 
-    ]                  Code in order to practice my vanilla JavaScript 
+                       Code in order to practice my vanilla JavaScript 
                        skills and API calls. The skills I honed in this project 
                        will be used to make a personal dashboard app with an integrated
-                       todo list in a series of widgets. Stay tuned on LinkedIn 
+                       to-do list in a series of widgets. Stay tuned on LinkedIn 
                        for updates coming soon.`,
         coverImage: {
             src: dewIt,

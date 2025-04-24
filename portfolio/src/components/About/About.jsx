@@ -44,7 +44,7 @@ export default function About({ id }) {
                             <br />
                             <br />
                             It will take the lessons learned from my project called Dew It below, 
-                            which is a todo list with API calls to Nasa photo of the day and a 
+                            which is a to-do list with API calls to Nasa photo of the day and a 
                             random joke API.
                             <br />
                             <br />
