@@ -20,7 +20,7 @@ const scrimbaProjectsData = [
             description: `This project was used to gain an understanding of React Router. 
                             I learned how to use relative paths, nested routes, search params
                             and protected routes. If you want to test the protected route, via the live link below, 
-                            I've given you the login details on the login page`,
+                            I've given you the login details on the login page.`,
             coverImage: {
                 src: vanLifeHome,
                 alt: "The van life app home page."
@@ -43,7 +43,7 @@ const scrimbaProjectsData = [
                     alt: "a login page"
                 },
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React", "React Router"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma", "React", "React Router"],
             linkTo: "/projects/van-life",
             liveLink: "https://van-lifey.netlify.app/",
             gitHub: ""
@@ -69,7 +69,7 @@ const scrimbaProjectsData = [
                     alt: "a page showing the movies that have been added to the watchlist"
                 }
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "REST APIs"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma", "REST APIs"],
             linkTo: "/projects/movie-watchlist",
             liveLink: "https://mov-wl.netlify.app/",
             gitHub: ""
@@ -80,7 +80,7 @@ const scrimbaProjectsData = [
             subTitle: "A hangman style game",
             description: `A hangman style game built with React to practice using useRef, useState and useEffect
                             to store information and change the appearance of items
-                            in the DOM`,
+                            in the DOM.`,
             coverImage: {
                 src: assemblyEndgameWin,
                 alt: "The page filled with confetti because the game has been won."
@@ -95,7 +95,7 @@ const scrimbaProjectsData = [
                     alt: "The page when the game has been lost."
                 }
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma", "React"],
             linkTo: "/projects/assembly-endgame",
             liveLink: "https://assem-endgame.netlify.app/",
             gitHub: ""
@@ -106,7 +106,7 @@ const scrimbaProjectsData = [
             subTitle: "The game Tenzies",
             description: `The game tenzies build with React to practice using useRef, useState and useEffect
                             to store information and change the appearance of items
-                            in the DOM`,
+                            in the DOM.`,
             coverImage: {
                 src: tenziesWin,
                 alt: "The page displayeing confetti because the game has been won."
@@ -117,7 +117,7 @@ const scrimbaProjectsData = [
                     alt: "The page displayeing confetti because the game has been won."
                 },
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma", "React"],
             linkTo: "/projects/tenzies",
             liveLink: "https://tennys.netlify.app/",
             gitHub: ""
@@ -129,22 +129,22 @@ const scrimbaProjectsData = [
             description: `An Instagram clone featuring some classic paintings,
                             built to practice manipulating the DOM with 
                             JavaScript and using data to map elements onto 
-                            the page`,
+                            the page.`,
             coverImage: {
                 src: oldagramTop,
-                alt: "oldagram, an instagram clone."
+                alt: "the top of the page showing a painting and a comment."
             },
             projectImages: [
                 {
                     src: oldagramTop,
-                    alt: "oldagram, an instagram clone.",
+                    alt: "the top of the page showing a painting and a comment.",
                 },
                 {
                     src: oldagramBottom,
-                    alt: "oldagram, an instagram clone.",
+                    alt: "the bottom of the page showing a painting and a comment.",
                 },
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma"],
             linkTo: "/projects/oldagram",
             liveLink: "https://thegramclone.netlify.app/",
             gitHub: ""
@@ -153,20 +153,20 @@ const scrimbaProjectsData = [
             id: "twimba",
             title: "Twimba",
             subTitle: "A Twitter clone",
-            description: `An Twitter clone, built to practice displaying Font Awsome icons,
+            description: `A Twitter clone, built to practice displaying Font Awesome icons,
                             then adding code to make them interactive. Also practicing
-                            turning a Figma design file into code`,
+                            turning a Figma design file into code.`,
             coverImage: {
                 src: twimba,
-                alt: "twimba, atwiiter clone."
+                alt: "Twimba, a twiiter clone."
             },
             projectImages: [
                 {
                     src: twimba,
-                    alt: "twimba, atwiiter clone."
+                    alt: "Twimba, a twiiter clone."
                 },
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma"],
             linkTo: "/projects/twimba",
             liveLink: "https://s-twimba.netlify.app/",
             gitHub: ""
@@ -174,23 +174,23 @@ const scrimbaProjectsData = [
         {
             id: "color-scheme-generator",
             title: "Color Scheme Generator",
-            subTitle: "A Color Scheme Generator",
-            description: `A site built to practice getting info from an API to display
+            subTitle: "On the tin",
+            description: `The generator was built to practice getting info from an API to display
                             on the page. I used thecolorapi in order to get the data.
                             I also practiced getting info from an input to place 
-                            in a get request string`,
+                            in a GET request string.`,
             coverImage: {
                 src: colorGeneratorAnalogic,
-                alt: "my learning journal, responsive site"
+                alt: "5 different colours displayed showing their respective hex codes."
             },
             projectImages: [
                 {
                     src: colorGeneratorAnalogic,
-                    alt: "my learning journal, responsive site"
+                    alt: "5 different colours displayed showing their respective hex codes."
                 },
                 {
                     src: colorGeneratorMono,
-                    alt: "the about me page of my learning journal"
+                    alt: "5 different colours displayed showing their respective hex codes."
                 }
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "REST APIs"],
@@ -207,16 +207,16 @@ const scrimbaProjectsData = [
                             turning a Figma design into code.`,
             coverImage: {
                 src: myLearningJournalHome,
-                alt: "my learning journal, responsive site"
+                alt: "The home page of the my learning journal site."
             },
             projectImages: [
                 {
                     src: myLearningJournalHome,
-                    alt: "my learning journal, responsive site"
+                    alt: "The home page of the my learning journal site."
                 },
                 {
                     src: myLearningJournalAbout,
-                    alt: "the about me page of my learning journal"
+                    alt: "The about page of the my learning journal site."
                 }
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
@@ -229,24 +229,24 @@ const scrimbaProjectsData = [
             title: "Jimmy's Diner",
             subTitle: "A restaurant ordering app",
             description: `A restaurant ordering app, built to practice adding and removing
-                            items from the DOM using event listeners. setting conditions
+                            items from the DOM using event listeners and setting conditions
                             for information to be displayed.`,
             coverImage: {
                 src: jimmysDinerHome,
-                alt: "a restaurant ordering app called Jimmy's Diner"
+                alt: "The page displayed food items that can be ordered."
             },
             projectImages: [
                 {
                     src: jimmysDinerHome,
-                    alt: "a payment prompt after items have been selected."
+                    alt: "The page displayed food items that can be ordered."
                 },
                 {
                     src: jimmysDinerItems,
-                    alt: "a payment prompt after items have been selected."
+                    alt: "The page displaying items that have been ordered and are ready to be payed for."
                 },
                 {
                     src: jimmysDinerPayment,
-                    alt: "a payment prompt after items have been selected."
+                    alt: "A payment prompt after items have been selected."
                 },
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
@@ -259,16 +259,16 @@ const scrimbaProjectsData = [
             title: "Unit Converter",
             subTitle: "A metric/imperial unit converter",
             description: `A metric/imperial unit converter that converts length, volume and mass, built to practise
-                            JavaScript functions and turning a figma design file
-                            into code`,
+                            using event listeners and inner HTML as well as turning a figma design file
+                            into code.`,
             coverImage: {
                 src: unitConverter,
-                alt: "a unit converter"
+                alt: "A unit converter where a number is entered and converted from metric to imperial and vice a versa."
             },
             projectImages: [
                 {
                     src: unitConverter,
-                    alt: "a unit converter",
+                    alt: "A unit converter where a number is entered and converted from metric to imperial and vice a versa.",
                 },
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
@@ -281,16 +281,15 @@ const scrimbaProjectsData = [
             title: "Password Generator",
             subTitle: "A random password generator",
             description: `A random password generator, built to practise
-                            JavaScript functions, Math.random and turning a figma design file
-                            into code`,
+                            using Math.random() and using JavaScript to display items.`,
             coverImage: {
                 src: passwordGenerator,
-                alt: "a random password generator"
+                alt: "The generator displaying 2 different passwords that have been created."
             },
             projectImages: [
                 {
                     src: passwordGenerator,
-                    alt: "a random password generator",
+                    alt: "The generator displaying 2 different passwords that have been created.",
                 },
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
@@ -303,16 +302,16 @@ const scrimbaProjectsData = [
             title: "Basketball Scoreboard",
             subTitle: "A basketball scoreboard",
             description: `A basketball scoreboard, built to practise
-                            JavaScript functions and turning a figma design file
-                            into code`,
+                            JavaScript functions that increment and decrement a number,
+                            that is then displayed on the page.`,
             coverImage: {
                 src: scoreboard,
-                alt: "a basketball scoreboard"
+                alt: "A basketball scoreboard, showing scores for a home and guest team."
             },
             projectImages: [
                 {
                     src: scoreboard,
-                    alt: "a basketball scoreboard",
+                    alt: "A basketball scoreboard, showing scores for a home and guest team.",
                 },
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
