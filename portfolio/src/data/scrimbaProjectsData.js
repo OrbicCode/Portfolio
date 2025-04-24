@@ -17,7 +17,10 @@ const scrimbaProjectsData = [
             id: "van-life",
             title: "Van Life",
             subTitle: "A Van Hiring App",
-            description: `A React site build to practice using React Router, protected routes and nested routes`,
+            description: `This project was used to gain an understanding of React Router. 
+                            I learned how to use relative paths, nested routes, search params
+                            and protected routes. If you want to test the protected route, via the live link below, 
+                            I've given you the login details on the login page`,
             coverImage: {
                 src: vanLifeHome,
                 alt: "my learning journal, responsive site"
@@ -49,10 +52,9 @@ const scrimbaProjectsData = [
             id: "movie-watchlist",
             title: "Movie Watchlist",
             subTitle: "A Movie Watchlist",
-            description: `A site built to practice getting info from an API to display
-                            on the page. I used OMDB api in order to get the data.
-                            I also practiced using local storage in order to save 
-                            information to then display on another page.`,
+            description: `The watchlist helped me get to know .then() chaining, and local storage
+                            better. I used local storage to save a movie to be displayed on the watchlist
+                            page, where the movie can then be removed.`,
             coverImage: {
                 src: movieWatchlistSearch,
                 alt: "my learning journal, responsive site"
