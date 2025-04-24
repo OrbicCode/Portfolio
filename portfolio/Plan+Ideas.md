@@ -85,10 +85,8 @@
 
 - add a random colour selection on hover of skill items ✅
 
-- add linear-gradients before and after the background images if static 
+- add font awesome to readmore ✅
 
-- add font awesome to readmore
-
-- check if my semantic HTML is ok
+- check if my semantic HTML is ok ✅
 
 - check if 404 can go back to previous page
