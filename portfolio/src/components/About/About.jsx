@@ -6,14 +6,14 @@ export default function About({ id }) {
             <div className="container">
                 <h2 className={styles.title}>About</h2>
                 <div className={styles.articlesContainer}>
-                    <div>
+                    <div className={styles.article}>
                         <h3 className={styles.articleTitle}>Who Am I?</h3>
                         <p> 
                             I am a software engineer/web developer based in London, UK. 
                             <br />
                             I am a graduate of the amazing School of Code, where I solidified 
-                            my desire to code. I learned a lot about web development, software 
-                            engineering and dev ops. How to be an agile team player and a presenter.
+                            my desire to code. I learned a lot about DevOps, JavaScript, React and Node.js. 
+                            How to be an agile team player and a presenter.
                             <br />
                             I love working in both front-end and back-end. Nailing a Figma design 
                             file by coding it up is super fun.
@@ -33,32 +33,34 @@ export default function About({ id }) {
                             <br />
                             <br />
 
-                            Check out some of my projects in the Work section below.               
-                            <br />
-                            I have been going through the Scrimba courses to keep myself 
-                            on my toes and creating. I have listed the projects I have done below as well.
+                            Check out both my personal and Scrimba projects in the Work section below.
                         </p>
                     </div>
-                    <div>
+                    <div className={styles.article}>
                         <h3 className={styles.articleTitle}>Upcoming Projects</h3>
                         <p>
                             I am currently in the planning process of making a personal dashboard 
                             app.
                             <br />
+                            <br />
                             It will take the lessons learned from my project called Dew It below, 
                             which is a todo list with API calls to Nasa photo of the day and a 
                             random joke API.
+                            <br />
                             <br />
                             I will make it with Next.js and will feature widgets such as a todo 
                             list, weather, jokes, quotes, news and finance with the background 
                             being the NASA photo of the day.
                             <br />
+                            <br />
                             I will also add Authentication and Authorisation as well as potentially 
                             adding AI features.
+                            <br />
                             <br />
                             I am planning on testing myself with this project to put together 
                             everything that I have learned thus far and make a Full-Stack App 
                             from the ground up.
+                            <br />
                             <br />
                             Stay tuned for more information coming soon...
                         </p>
