@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { useParams, Link, useNavigate } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 import SkillItem from "../../components/SkillItem/SkillItem"
 import HeaderTop from "../../components/HeaderTop/HeaderTop"
 import projectData from "../../data/projectData"
@@ -9,7 +9,6 @@ import styles from './ProjectPage.module.css'
 export default function ProjectPage() {
     const { id } = useParams()
     const [project, setProject] = useState(null)
-    const navigate = useNavigate()
 
     useEffect(() => {
         const combinedData = [...projectData, ...scrimbaProjectData]
@@ -18,7 +17,7 @@ export default function ProjectPage() {
     }, [id])
 
     const backgroundStyles = {
-        backgroundImage: `url(${project ? project.coverImage.src: null})`,
+        backgroundImage: `url(${project?.coverImage.src})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -28,23 +27,17 @@ export default function ProjectPage() {
         height: '100vh'
     }
 
-    useEffect(() => {
-        if (!project) {
-            navigate('/not-found');
-        }
-    }, [project, navigate]);
-    
-    if (!project) {
-        return null;
-    }
-
-    const imageDisplay = project.projectImages.map((image, index) => {
+    const imageDisplay = project?.projectImages.map((image, index) => {
         return <img key={index} src={image.src} alt={image.alt} loading="lazy"/>
     })
 
-    const techUsedDisplay = project.techUsed.map(tech => {
+    const techUsedDisplay = project?.techUsed.map(tech => {
         return <SkillItem key={tech} text={tech} />
     })
+
+    if(!project) {
+        return <h1>loading...</h1>
+    }
 
     return (
         <div style={backgroundStyles} className={`${styles.projectPage} section`}>
