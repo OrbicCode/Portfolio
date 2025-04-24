@@ -23,24 +23,24 @@ const scrimbaProjectsData = [
                             I've given you the login details on the login page`,
             coverImage: {
                 src: vanLifeHome,
-                alt: "my learning journal, responsive site"
+                alt: "The van life app home page."
             },
             projectImages: [
                 {
                     src: vanLifeHome,
-                    alt: "my learning journal, responsive site"
+                    alt: "The van life app home page."
                 },
                 {
                     src: vanLifeInfo,
-                    alt: "the about me page of my learning journal"
+                    alt: "a page showing information about a specific van"
                 },
                 {
                     src: vanLifeVans,
-                    alt: "the about me page of my learning journal"
+                    alt: "a page showing a list of different vans for hire"
                 },
                 {
                     src: vanLifeLogin,
-                    alt: "the about me page of my learning journal"
+                    alt: "a login page"
                 },
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "React", "React Router"],
@@ -51,22 +51,22 @@ const scrimbaProjectsData = [
         {
             id: "movie-watchlist",
             title: "Movie Watchlist",
-            subTitle: "A Movie Watchlist",
+            subTitle: "On the tin",
             description: `The watchlist helped me get to know .then() chaining, and local storage
-                            better. I used local storage to save a movie to be displayed on the watchlist
-                            page, where the movie can then be removed.`,
+                            better. The movie information is gathered from the OMDB Api. I used local storage to save a movie to be displayed on the watchlist
+                            page, where the movie can then be removed. The design was translated from a Figma design.`,
             coverImage: {
                 src: movieWatchlistSearch,
-                alt: "my learning journal, responsive site"
+                alt: "a page showing a list of movies after the word blade is searched."
             },
             projectImages: [
                 {
                     src: movieWatchlistSearch,
-                    alt: "my learning journal, responsive site"
+                    alt: "a page showing a list of movies after the word blade is searched."
                 },
                 {
                     src: movieWatchlistWl,
-                    alt: "the about me page of my learning journal"
+                    alt: "a page showing the movies that have been added to the watchlist"
                 }
             ],
             techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "REST APIs"],
