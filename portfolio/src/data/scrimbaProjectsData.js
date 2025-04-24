@@ -158,12 +158,12 @@ const scrimbaProjectsData = [
                             turning a Figma design file into code.`,
             coverImage: {
                 src: twimba,
-                alt: "Twimba, a twiiter clone."
+                alt: "Showing fake tweets from celebrities."
             },
             projectImages: [
                 {
                     src: twimba,
-                    alt: "Twimba, a twiiter clone."
+                    alt: "Showing fake tweets from celebrities."
                 },
             ],
             techUsed: ["HTML", "CSS", "JavaScript", "Figma"],
@@ -193,7 +193,7 @@ const scrimbaProjectsData = [
                     alt: "5 different colours displayed showing their respective hex codes."
                 }
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma", "REST APIs"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma", "REST APIs"],
             linkTo: "/projects/color-scheme-generator",
             liveLink: "https://cs-generator.netlify.app/",
             gitHub: ""
@@ -219,7 +219,7 @@ const scrimbaProjectsData = [
                     alt: "The about page of the my learning journal site."
                 }
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma"],
             linkTo: "/projects/my-learning-journal",
             liveLink: "https://mlj-scrim.netlify.app/",
             gitHub: ""
@@ -249,7 +249,7 @@ const scrimbaProjectsData = [
                     alt: "A payment prompt after items have been selected."
                 },
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma"],
             linkTo: "/projects/jimmys-diner",
             liveLink: "https://jimmys-scrim-diner.netlify.app/",
             gitHub: ""
@@ -271,7 +271,7 @@ const scrimbaProjectsData = [
                     alt: "A unit converter where a number is entered and converted from metric to imperial and vice a versa.",
                 },
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma"],
             linkTo: "/projects/unit-converter",
             liveLink: "https://unit-converterer.netlify.app/",
             gitHub: ""
@@ -292,7 +292,7 @@ const scrimbaProjectsData = [
                     alt: "The generator displaying 2 different passwords that have been created.",
                 },
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma"],
             linkTo: "/projects/password-generator",
             liveLink: "https://rpw-generator.netlify.app/",
             gitHub: ""
@@ -314,7 +314,7 @@ const scrimbaProjectsData = [
                     alt: "A basketball scoreboard, showing scores for a home and guest team.",
                 },
             ],
-            techUsed: ["HTML", "CSS", "JavaSCript", "Figma"],
+            techUsed: ["HTML", "CSS", "JavaScript", "Figma"],
             linkTo: "/projects/basketball-scoreboard",
             liveLink: "https://bb-sboard.netlify.app/",
             gitHub: ""

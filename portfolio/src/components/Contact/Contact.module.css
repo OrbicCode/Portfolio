@@ -40,7 +40,7 @@
 
 .email {
     font-size: 1.5rem;
-    color: var(--blue);
+    color: var(--beige);
     transition: color 0.3s ease-in-out;
 }
 
@@ -56,7 +56,7 @@
 .links {
     font-size: 1.25rem;
     text-decoration: none;
-    color: var(--blue);
+    color: var(--beige);
     display: block;
     transition: color 0.3s ease-in-out;
 }

@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 import styles from './HeaderTop.module.css'
 import Navigation from "../Navigation/Navigation"
-import profileImage from '../../assets/cross-arm-profile.jpg'
+import profileImage from '../../assets/general/cross-arm-profile.png'
 
 export default function HeaderTop({ isScrolled }) {
 

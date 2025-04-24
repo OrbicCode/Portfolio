@@ -37,20 +37,20 @@ const projectData = [
         id: "dew-it",
         title: "Dew It",
         subTitle: "Todo List",
-        description: `I started this project during my time at school of 
-    ]                  code in order to proctice my vanilla JavaScript 
-                       skills and api calls. The skills I honed in this project 
+        description: `I started this project during my time at School of 
+    ]                  Code in order to practice my vanilla JavaScript 
+                       skills and API calls. The skills I honed in this project 
                        will be used to make a personal dashboard app with an integrated
-                       todo list in a series pf widgets. Stay tuned on LinkedIn 
-                       for uopdates coming soon.`,
+                       todo list in a series of widgets. Stay tuned on LinkedIn 
+                       for updates coming soon.`,
         coverImage: {
             src: dewIt,
-            alt: "a Star Wars themed to-do list with a joke widget and Nasa photo of the day"
+            alt: "a Star Wars themed to-do list with a joke widget and Nasa photo of the day."
         },
         projectImages: [
             {
                 src: dewIt,
-                alt: "a Star Wars themed to-do list with a joke widget and Nasa photo of the day",
+                alt: "a Star Wars themed to-do list with a joke widget and Nasa photo of the day.",
             }
         ],
         techUsed: ["HTML", "CSS", "JavaScript", "REST APIs", "Netlify"],
@@ -66,9 +66,9 @@ const projectData = [
                         help with climate change based on your location, while giving you 
                         local climate data.
                         At my second ever hackathon for SandboxAQ we were given the task
-                        of developing an App that solves on of the UN's SDGs, while
-                        imagining that we had a quantum computer. As a group we decided
-                        to try React-Native for the first time`,
+                        of developing an App that solves one of the UN's SDGs, while
+                        imagining that we had access to a quantum computer. As a group we decided
+                        to try React-Native for the first time.`,
         coverImage: {
             src: ecoSage,
             alt: "EcoSage app displayed on a phone with a background of a churning sea next to a cliff."
@@ -88,10 +88,6 @@ const projectData = [
         id: "scrimba",
         title: "Scrimba",
         subTitle: "My Scrimba projects",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
         coverImage: {
             src: scrimbaLogo,
             alt: "The Scrimba logo"
