@@ -17,6 +17,7 @@ import myLearningJournalAbout from './myLearningJournal-about.png'
 import jimmysDinerHome from './jimmysDiner-home.png'
 import jimmysDinerItems from './jimmysDiner-items.png'
 import jimmysDinerPayment from './jimmysDiner-payment.png'
+import unitConverter from './unitConverter.png'
 
 export {
     vanLifeHome,
@@ -37,5 +38,6 @@ export {
     myLearningJournalAbout,
     jimmysDinerHome,
     jimmysDinerItems,
-    jimmysDinerPayment
+    jimmysDinerPayment,
+    unitConverter
 }

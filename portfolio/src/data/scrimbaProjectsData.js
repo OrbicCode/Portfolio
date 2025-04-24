@@ -6,7 +6,8 @@ import {vanLifeHome, vanLifeInfo, vanLifeVans, vanLifeLogin,
         twimba,
         colorGeneratorAnalogic, colorGeneratorMono,
         myLearningJournalHome, myLearningJournalAbout,
-        jimmysDinerHome, jimmysDinerItems, jimmysDinerPayment
+        jimmysDinerHome, jimmysDinerItems, jimmysDinerPayment,
+        unitConverter
     } from "../assets/scrimba"
 
 const scrimbaProjectsData = [
@@ -257,12 +258,12 @@ const scrimbaProjectsData = [
                             JavaScript functions and turning a figma design file
                             into code`,
             coverImage: {
-                src: "",
+                src: unitConverter,
                 alt: "a unit converter"
             },
             projectImages: [
                 {
-                    src: "",
+                    src: unitConverter,
                     alt: "a unit converter",
                 },
             ],
