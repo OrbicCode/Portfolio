@@ -5,8 +5,14 @@
     background-repeat: no-repeat;
     background-color: rgba(15, 19, 22, 0.8);
     background-blend-mode: overlay;
-    background-attachment: fixed;
+    background-attachment: scroll;
     padding: 0 1em 0 3em;
+}
+
+@media (min-width: 768px) {
+    .expertise {
+        background-attachment: fixed;
+    }
 }
 
 .title {
