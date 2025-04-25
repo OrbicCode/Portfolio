@@ -6,8 +6,13 @@ import styles from './Scrimba.module.css'
 
 export default function Scrimba({ isScrolled }) {
     useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
+        if (window.scrollY !== 0) {
+            window.scrollTo({
+                top: 0,
+                behavior: "instant"
+            });
+        }
+    }, []);
 
     const workItemDisplay = scrimbaProjectsData.map(project => {
         return (
