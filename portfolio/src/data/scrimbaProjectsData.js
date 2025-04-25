@@ -300,7 +300,7 @@ const scrimbaProjectsData = [
         {
             id: "basketball-scoreboard",
             title: "Basketball Scoreboard",
-            subTitle: "A basketball scoreboard",
+            subTitle: "On the tin",
             description: `A basketball scoreboard, built to practise
                             JavaScript functions that increment and decrement a number,
                             that is then displayed on the page.`,
