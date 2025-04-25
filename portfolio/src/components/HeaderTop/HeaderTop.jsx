@@ -15,7 +15,7 @@ export default function HeaderTop({ isScrolled }) {
     }
 
     return (
-        <div className={`${styles.headerTop} ${isScrolled ? styles.fixedHeader : ""} ${isNavOpen ? styles.background : ""}`}>
+        <div className={`${styles.headerTop} ${isScrolled ? styles.fixedHeader : ""}`}>
             <Link to="/#home" className={`${styles.logo} ${isScrolled ? styles.hidden : ""}`}>
                 <img
                     src={profileImage} 
