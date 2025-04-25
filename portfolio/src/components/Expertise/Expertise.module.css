@@ -6,7 +6,6 @@
     background-color: rgba(15, 19, 22, 0.8);
     background-blend-mode: overlay;
     background-attachment: scroll;
-    padding: 0 1em 0 3em;
 }
 
 @media (min-width: 768px) {
@@ -54,7 +53,7 @@
     list-style: none;
     max-width: 700px;
     margin: 2em auto 4em;
-    padding: 0;
+    padding: 0 1em;
 }
 
 .mouseOver {
