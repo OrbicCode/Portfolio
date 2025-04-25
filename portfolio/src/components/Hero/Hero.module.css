@@ -111,3 +111,17 @@
         font-size: 7rem;
     }
 }
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .subtitle {
+        font-size: 0.875rem;
+    }
+
+    .brackets {
+        font-size: 3.5rem;
+    }
+}

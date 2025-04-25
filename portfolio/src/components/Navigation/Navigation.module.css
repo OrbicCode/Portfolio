@@ -1,6 +1,6 @@
 .nav {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     background: var(--night);
     width: 100vw;
     height: 100vh;
@@ -30,10 +30,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5em;
     list-style: none;
     padding: 0;
-    margin: 0 auto;
+    margin: 4em auto 0;
     width: 100%;
 }
 
@@ -50,7 +49,7 @@
     text-decoration: none;
     color: white;
     transition: color 0.3s ease-in-out;
-    padding-block: 1.5em;
+    padding-block: 1em;
     display: block;
 }
 
@@ -70,7 +69,10 @@
 
 .nav button {
     font-size: 2rem;
-    padding: 1em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0.75em 1em;
     border: none;
     color: white;
     background: rgba(0, 0, 0, 0);
@@ -122,5 +124,17 @@
 
     .nav ul {
         gap: 2em;
+    }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .nav {
+        overflow: scroll;
+    }
+
+    .nav ul {
+        flex-wrap: wrap;
+        width: unset;
+        gap: unset;
     }
 }
