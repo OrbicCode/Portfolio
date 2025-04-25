@@ -42,7 +42,7 @@
 
 .logo:hover,
 .logo:focus {
-    color: var(--rust)
+    color: var(--blue)
 }
 
 .profileImg {

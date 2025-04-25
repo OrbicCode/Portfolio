@@ -8,15 +8,15 @@
     top: 0;
     right: 0;
     bottom: 0;
-    left: 100%;
-    transform: translateX(0);
+    left: 0;
+    transform: translateX(100%);
     transition: transform 0.3s ease;
     z-index: 9998;
 }
 
 @media (max-width: 767px) {
     .navOpen {
-        transform: translateX(-100%);
+        transform: translateX(0);
         background: var(--night);
         height: 100vh;
     }
