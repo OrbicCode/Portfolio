@@ -13,7 +13,7 @@ export default function Header({ id, isScrolled }) {
                     <Hero isScrolled={isScrolled} />
                 </div>
                 
-                <div className={styles.curve}></div>
+                {/* <div className={styles.curve}></div> */}
             </div>    
         </header>
     )
