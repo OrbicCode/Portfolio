@@ -8,7 +8,7 @@ export default function About({ id }) {
                 <div className={styles.articlesContainer}>
                     <div className={styles.article}>
                         <h3 className={styles.articleTitle}>Who Am I?</h3>
-                        <p> 
+                        <p className={styles.articleText}> 
                             I am a software engineer/web developer based in London, UK. 
                             <br />
                             I am a graduate of the amazing School of Code, where I solidified 
@@ -38,7 +38,7 @@ export default function About({ id }) {
                     </div>
                     <div className={styles.article}>
                         <h3 className={styles.articleTitle}>Upcoming Projects</h3>
-                        <p>
+                        <p className={styles.articleText}>
                             I am currently in the planning process of making a personal dashboard 
                             app.
                             <br />
