@@ -18,13 +18,6 @@ export default function ProjectPage() {
 
     const backgroundStyles = {
         backgroundImage: `url(${project?.coverImage.src})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-        backgroundColor: 'rgba(0, 0, 0, 0.8)',
-        backgroundBlendMode: 'overlay',
-        backgroundAttachment: 'fixed',
-        height: '100vh'
     }
 
     const imageDisplay = project?.projectImages.map((image, index) => {

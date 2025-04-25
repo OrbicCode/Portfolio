@@ -1,3 +1,19 @@
+.projectPage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: overlay;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+@media (min-width: 768px) {
+    .projectPage {
+        background-attachment: fixed;
+    }
+}
+
 .title {
     font-size: 3rem;
 }
