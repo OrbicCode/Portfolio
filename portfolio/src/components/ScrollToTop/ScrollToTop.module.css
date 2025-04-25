@@ -4,7 +4,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 1em 1.125em;
+    padding: 0.875em 1em;
     background: var(--blue);
     border: none;
     cursor: pointer;
@@ -20,4 +20,10 @@
 .button:hover {
     transform: scale(1.1);
     background: var(--purple);
+}
+
+@media (min-width: 768px) {
+    .button {
+        padding: 1em 1.125em
+    }
 }
