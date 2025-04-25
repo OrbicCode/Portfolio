@@ -9,7 +9,7 @@
     background-color: rgba(15, 19, 22, 0.8);
     background-blend-mode: overlay;
     background-attachment: scroll;
-    padding: 1em 0 3em;
+    padding-bottom: 3em;
 }
 
 @media (min-width: 768px) {
@@ -22,7 +22,7 @@
     position: relative;
     z-index: 1;
     width: fit-content;
-    margin: 1.5em auto;
+    margin: 1.5em auto 0.875em;
 }
 
 .title::after {

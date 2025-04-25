@@ -6,6 +6,7 @@
     background-color: rgba(15, 19, 22, 0.9);
     background-blend-mode: overlay;
     background-attachment: scroll;
+    padding-bottom: 3em;
 }
 
 @media (min-width: 768px) {

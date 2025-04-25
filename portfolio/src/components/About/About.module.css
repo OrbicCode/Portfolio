@@ -1,3 +1,7 @@
+.about {
+    padding-bottom: 3em;
+}
+
 .articlesContainer {
     display: flex;
     flex-direction: column;
