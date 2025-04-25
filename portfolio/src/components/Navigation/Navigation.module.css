@@ -1,6 +1,6 @@
 .nav {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     background: var(--night);
     width: 100vw;
     height: 100vh;
@@ -84,6 +84,10 @@
     .nav button {
         margin-right: 0.6em;
     }
+
+    .nav ul {
+        gap: 1em;
+    }
 }
 
 @media (min-width: 768px) {
@@ -94,6 +98,7 @@
         flex-direction: row;
         width: 60%;
         transform: unset;
+        height: unset;
     }
 
     .nav ul {
@@ -101,6 +106,7 @@
         align-items: center;
         justify-content: flex-end;
         gap: 1em;
+        margin-top: unset;
     }
 
     .nav li {
@@ -135,6 +141,10 @@
     .nav ul {
         flex-wrap: wrap;
         width: unset;
-        gap: unset;
+        gap: 0;
+    }
+
+    .nav a {
+        padding-block: 0.75em;
     }
 }
