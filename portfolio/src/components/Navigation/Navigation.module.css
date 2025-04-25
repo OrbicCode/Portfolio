@@ -86,11 +86,12 @@
 
 @media (min-width: 768px) {
     .nav {
-        position: initial;
+        position: unset;
         background: unset;
         align-items: center;
         flex-direction: row;
         width: 60%;
+        transform: unset;
     }
 
     .nav ul {
