@@ -78,6 +78,7 @@
     - build the Scrimba page (using workitem component) ✅
 
     - write content for about section ✅
+    - about page border line centering
 
 ## Ideas
 
