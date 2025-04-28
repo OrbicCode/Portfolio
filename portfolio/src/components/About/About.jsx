@@ -39,7 +39,7 @@ export default function About({ id }) {
                     <div className={styles.article}>
                         <h3 className={styles.articleTitle}>Upcoming Projects</h3>
                         <p className={styles.articleText}>
-                            I am currently in the planning process of making a personal dashboard 
+                            I am currently in the planning stage of making a personal dashboard 
                             app.
                             <br />
                             <br />
@@ -48,17 +48,13 @@ export default function About({ id }) {
                             random joke API.
                             <br />
                             <br />
-                            I will make it with Next.js and will feature widgets such as a to-do 
-                            list, weather, jokes, quotes, news and finance with the background 
-                            being the NASA photo of the day.
-                            <br />
-                            <br />
-                            I will also add Authentication and Authorisation as well as potentially 
-                            adding AI features.
+                            I will make it with Next.js and TypeScript hosted on Vercel, Authorisation on Supabase
+                            and will feature widgets such as a to-do list, weather, jokes, quotes, 
+                            news and finance with the background being the NASA photo of the day.
                             <br />
                             <br />
                             I am planning on testing myself with this project to put together 
-                            everything that I have learned thus far and make a Full-Stack App 
+                            everything that I have learned thus far and make a responsive full-stack web app 
                             from the ground up.
                             <br />
                             <br />
