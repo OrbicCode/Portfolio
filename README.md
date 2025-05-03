@@ -7,14 +7,12 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 ## Table of Contents
 
 - [Design](#design)
-<!--
-- Overview
-- Features
-- Design
-  - idea
-  - pallet
-- Tech Choices
--->
+- [Features](#features)
+- [Tech Used](#tech-used)
+- [Getting Started](#getting-started)
+- [Future](#future)
+- [Contact](#contact)
+
 ## Design
 
 This all began with the idea that I could take an image as inspiration and try to use that as the basis for a website. I had an idea for a Japanese-style zen garden 🪴 with a wooden porch 🪵. I wanted to take the forest and moss greens 🌳, stone and slate greys 🗿 and brown-reddish wood to use as my colour palette. So to see the image come to life, I generated a few with AI and came up with the image you see above. 
@@ -30,4 +28,75 @@ This all began with the idea that I could take an image as inspiration and try t
 <p align="center">
   <img width="75%" alt="Colour Palette" src="https://github.com/user-attachments/assets/d1b21029-90a1-4e08-b81e-ae841894b213" />
 </p>
+
+## Features
+
+- Responsive Design: Adapts to various screen sizes for optimal viewing on desktops, tablets, and mobile devices.
+  
+- Project Showcase: Highlights key projects with descriptions, technologies used, and links to live demos or repositories.
+  
+## Tech Used
+
+- Frontend:
+  - React.js: For building reusable UI components.
+  - React Router: For client-side routing and navigation.
+  - JavaScript: For dynamic functionality.
+  - HTML & CSS: For structure and styling.
+  - Font Awesome: For scalable vector icons.
+
+- Tools & Deployment:
+  - Vite: For fast development and build processes.
+  - Netlify: For hosting and continuous deployment.
+  - Git & GitHub: For version control and collaboration.
+
+- Other:
+  - npm: For package management.
+
+## Getting Started
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+  - Node.js (v18 or higher)
+  - npm (v8 or higher)
+  - Git
+
+### Installation
+
+1. Clone the repository
+```zsh
+git clone https://github.com/OrbicCode/Portfolio.git
+```
+
+2. Navigate to the project directory:
+```zsh
+cd portfolio
+```
+
+3. Install dependencies:
+```zsh
+npm install
+```
+
+4. Start the development server:
+```zsh
+npm run dev
+```
+
+5. Open your browser and visit http://localhost:5173 (or the port specified in the terminal by Vite).
+   
+## Future
+
+- Add a backend for handling contact form submissions (e.g., Node.js with Express or a serverless function).
+- Implement a blog section to share development insights and tutorials.
+- Enhance accessibility (e.g., ARIA labels, keyboard navigation).
+
+## Contact
+
+For questions, feedback, or collaboration opportunities, reach out to me:
+
+- GitHub: OrbicCode
+- Email: your-email@example.com
+- LinkedIn: Your LinkedIn Profile
+
+Thank you for visiting my portfolio!
 
