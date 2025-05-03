@@ -26,7 +26,7 @@ This all began with the idea that I could take an image as inspiration and try t
 ### Palette
 
 <p align="center">
-  <img width="75%" alt="Colour Palette" src="https://github.com/user-attachments/assets/d1b21029-90a1-4e08-b81e-ae841894b213" />
+  <img width="75%" alt="Colour Palette" src="https://github.com/user-attachments/assets/992cc04a-bc0d-4024-aa19-a129dc809ef6" />
 </p>
 
 ## Features
@@ -95,8 +95,8 @@ npm run dev
 For questions, feedback, or collaboration opportunities, reach out to me:
 
 - GitHub: OrbicCode
-- Email: your-email@example.com
-- LinkedIn: Your LinkedIn Profile
+- LinkedIn: www.linkedin.com/in/james-o-kane-orbiccode
+- Email: orbiccode@gmail.com
 
 Thank you for visiting my portfolio!
 
