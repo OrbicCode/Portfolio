@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A modern, responsive portfolio website showcasing my skills, projects, and experience as a web developer. Built with React and hosted on Netlify, this project demonstrates my ability to create clean, user-friendly interfaces and deploy web applications.
+A modern, responsive portfolio website showcasing my skills, projects, and experience as a web developer. Built with Vite and React and hosted on Netlify, this project demonstrates my ability to create clean, user-friendly interfaces and deploy web applications.
 
 🔗 Live Site: https://orbic-portfolio.netlify.app/
 
