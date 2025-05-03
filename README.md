@@ -86,9 +86,9 @@ npm run dev
    
 ## Future
 
-- Add a backend for handling contact form submissions (e.g., Node.js with Express or a serverless function).
-- Implement a blog section to share development insights and tutorials.
-- Enhance accessibility (e.g., ARIA labels, keyboard navigation).
+- Add a backend for handling contact form submissions (e.g. Node.js with Express).
+- Implement a blog section to share some stories from my journey as a dev.
+- Enhance accessibility (e.g. ARIA labels).
 
 ## Contact
 
