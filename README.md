@@ -1,7 +1,4 @@
 # Portfolio
-<p align="center">
-<img  width="75%" src="https://github.com/user-attachments/assets/7b81e2db-03e8-4873-a75c-8af52603d3ee" />
-</p>
 <!--
 - Overview
 - Features
@@ -10,12 +7,13 @@
   - pallet
 - Tech Choices
 -->
-
-## Overview
+## Design
 
 This all began with the idea that I could take an image as inspiration and try to use that as the basis for a website. I had an idea for a Japanese-style zen garden 🪴 with a wooden porch 🪵. I wanted to take the forest and moss greens 🌳, stone and slate greys 🗿 and brown-reddish wood to use as my colour palette. So to see the image come to life I generated a few with AI and came up with the image you see above. 
 
-## Design 
+<p align="center">
+  <img  width="75%" src="https://github.com/user-attachments/assets/7b81e2db-03e8-4873-a75c-8af52603d3ee" />
+</p>
 
 [Figma Design](https://www.figma.com/design/ux5LG8SAabUALNSWP182eF/Portfolio?node-id=0-1&m=dev&t=4lpunGVu2i7VdTE3-1)
 
