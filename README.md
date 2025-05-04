@@ -62,14 +62,14 @@ Follow these steps to set up and run the project locally.
 
 ### Installation
 
-1. Clone the repository
+1. Clone the repository:
 ```zsh
 git clone https://github.com/OrbicCode/Portfolio.git
 ```
 
 2. Navigate to the project directory:
 ```zsh
-cd portfolio
+cd Portfolio
 ```
 
 3. Install dependencies:
@@ -82,7 +82,7 @@ npm install
 npm run dev
 ```
 
-5. Open your browser and visit http://localhost:5173 (or the port specified in the terminal by Vite).
+5. Open your browser and visit the URL displayed in the terminal (e.g., http://localhost:5173).
    
 ## Future
 
