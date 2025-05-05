@@ -10,22 +10,22 @@ import styles from './ProjectPage.module.css'
 export default function ProjectPage() {
     const { id } = useParams()
     const [project, setProject] = useState(null)
-    const [isLoading, setIsLoading] = useState(true) // Add a loading state
+    const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
-        setIsLoading(true) // Set loading to true when the effect starts
+        setIsLoading(true)
         const combinedData = [...projectData, ...scrimbaProjectData]
         const foundProject = combinedData.find(project => project.id === id)
         setProject(foundProject)
-        setIsLoading(false) // Set loading to false after finding the project
+        setIsLoading(false)
     }, [id])
 
     if (isLoading) {
-        return // Optionally, show a loading indicator
+        return
     }
 
     if (!project) {
-        return <NotFound /> // Render the 404 page if no project is found
+        return <NotFound />
     }
 
     const backgroundStyles = {
