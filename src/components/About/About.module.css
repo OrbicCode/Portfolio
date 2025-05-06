@@ -1,94 +1,94 @@
 .about {
-    padding-bottom: 3em;
+	padding-bottom: 3em;
 }
 
 .articlesContainer {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 2em;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto 2em;
 }
 
 .about p {
-    max-width: 500px;
+	max-width: 500px;
 }
 
 .title {
-    position: relative;
-    align-self: center;
-    width: fit-content;
-    margin: 1.5em auto;
+	position: relative;
+	align-self: center;
+	width: fit-content;
+	margin: 1.5em auto;
 }
 
 .title::after {
-    content: "";
-    position: absolute;
-    left: 10%;
-    bottom: 15%;
-    height: 20px;
-    width: 105%;
-    background: var(--rust);
-    z-index: -1;
+	content: "";
+	position: absolute;
+	left: 10%;
+	bottom: 15%;
+	height: 20px;
+	width: 105%;
+	background: var(--rust);
+	z-index: -1;
 }
 
 .article:first-of-type {
-    border-bottom: 3px solid rgba(255, 255, 255, 0.75);
-    padding-bottom: 2em;
+	border-bottom: 3px solid rgba(255, 255, 255, 0.75);
+	padding-bottom: 2em;
 }
 
 .article:last-of-type {
-    margin-top: 2.5em;
+	margin-top: 2.5em;
 }
 
 .article {
-    padding: 0 1.5em;
+	padding: 0 1.5em;
 }
 
 .articleTitle {
-    position: relative;
-    width: fit-content;
-    margin-bottom: 1em;
+	position: relative;
+	width: fit-content;
+	margin-bottom: 1em;
 }
 
 .articleTitle::after {
-    content: "";
-    position: absolute;
-    left: 5%;
-    bottom: 8%;
-    height: 15px;
-    width: 105%;
-    background: var(--moss);
-    z-index: -1;
+	content: "";
+	position: absolute;
+	left: 5%;
+	bottom: 8%;
+	height: 15px;
+	width: 105%;
+	background: var(--moss);
+	z-index: -1;
 }
 
 .articleText {
-    font-size: 0.875rem;
+	font-size: 0.875rem;
 }
 
 @media (min-width: 480px) {
-    .articleTitle {
-        font-size: 1.75rem;
-    }
+	.articleTitle {
+		font-size: 1.75rem;
+	}
 }
 
 @media (min-width: 768px) {
-    .articlesContainer {
-        max-width: 900px;
-        flex-direction: row;
-        justify-content: center;
-        gap: 2em;
-    }
+	.articlesContainer {
+		max-width: 900px;
+		flex-direction: row;
+		justify-content: center;
+		gap: 2em;
+	}
 
-    .article:first-of-type {
-        border-right: 3px solid rgba(255, 255, 255, 0.5);
-        border-bottom: unset;
-        padding: 0 3em 0 0;
-    }
+	.article:first-of-type {
+		border-right: 3px solid rgba(255, 255, 255, 0.5);
+		border-bottom: unset;
+		padding: 0 3em 0 0;
+	}
 
-    .article:last-of-type {
-        margin-top: unset;
-    }
+	.article:last-of-type {
+		margin-top: unset;
+	}
 
-    .articleText {
-        font-size: 1rem;
-    }
+	.articleText {
+		font-size: 1rem;
+	}
 }

@@ -1,76 +1,76 @@
 .expertise {
-    background-image: url('../../assets/general/robot-garden.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgba(15, 19, 22, 0.8);
-    background-blend-mode: overlay;
-    background-attachment: scroll;
-    padding-bottom: 3em;
+	background-image: url("../../assets/general/robot-garden.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: rgba(15, 19, 22, 0.8);
+	background-blend-mode: overlay;
+	background-attachment: scroll;
+	padding-bottom: 3em;
 }
 
 @media (min-width: 768px) {
-    .expertise {
-        background-attachment: fixed;
-    }
+	.expertise {
+		background-attachment: fixed;
+	}
 }
 
 .title {
-    position: relative;
-    z-index: 1;
-    width: fit-content;
-    margin: 1.5em auto;
+	position: relative;
+	z-index: 1;
+	width: fit-content;
+	margin: 1.5em auto;
 }
 
 .title::after {
-    content: "";
-    position: absolute;
-    left: 10%;
-    bottom: 15%;
-    height: 20px;
-    width: 105%;
-    background: var(--moss);
-    z-index: -1;
+	content: "";
+	position: absolute;
+	left: 10%;
+	bottom: 15%;
+	height: 20px;
+	width: 105%;
+	background: var(--moss);
+	z-index: -1;
 }
 
 .expertiseItemContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2em;
 }
 
 .skillsTitle {
-    font-size: 2rem;
-    color: white;
-    margin-top: 2em;
-    text-align: center;
+	font-size: 2rem;
+	color: white;
+	margin-top: 2em;
+	text-align: center;
 }
 
 .skillsContainer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    list-style: none;
-    max-width: 700px;
-    margin: 2em auto 4em;
-    padding: 0 1em;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	list-style: none;
+	max-width: 700px;
+	margin: 2em auto 4em;
+	padding: 0 1em;
 }
 
 .mouseOver {
-    text-align: center;
-    margin: 0;
+	text-align: center;
+	margin: 0;
 }
 
 @media (min-width: 768px) {
-    .expertiseItemContainer {
-        flex-direction: row;
-        justify-content: center;
-    }
+	.expertiseItemContainer {
+		flex-direction: row;
+		justify-content: center;
+	}
 }
 
 @media (min-width: 1024px) {
-    .expertiseItemContainer {
-        gap: 5em;
-    }
+	.expertiseItemContainer {
+		gap: 5em;
+	}
 }
