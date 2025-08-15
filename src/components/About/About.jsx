@@ -38,33 +38,25 @@ export default function About({ id }) {
             <h3 className={styles.articleTitle}>Upcoming Projects</h3>
             <p className={styles.articleText}>
               I have just completed version 1.0 of my personal dashboard app
-              called{' '}
+              called
               <a href='https://stardweller.vercel.app/' className={styles.link}>
                 Star Dweller
               </a>
               <br />
               <br />
-              Built with TypeScript, Next.js and Supabase using Agile and TDD
-              methodologies
+              My next project is a data visualisation dashboard of renewable
+              energy data. It shall be built with Vite (React), TypeScript,
+              Express.js, Chart.js, PostgreSQL and Docker.
               <br />
               <br />
-              I learned a lot from the experience of making this and have
-              definitley grown as a developer because of it. TypeScript and TDD
-              are now my new best friends. I feel safer and more comfortable
-              when coding especially when deploying. Not only that but I feel
-              that I understand my code more now, providing a great learning
-              experience.
+              One of my long-term dreams would be to work in anything that deals
+              with climate change. It's one of the reasons why I made the move
+              into tech. I could see how the two go hand in hand. If I could
+              have anything to do with it or make the smallest contribution, a
+              button on an app, I could rest easy.
               <br />
               <br />
-              Check out it in the{' '}
-              <a href='#work' className={styles.link}>
-                Work
-              </a>{' '}
-              section below.
-              <br />
-              <br />I am planning on continuing to develop and add new features,
-              such as drag and drop functionality for the widgets and location
-              based weather fetching, so stay tuned for more...
+              So why not start building something now... Stay tuned.
             </p>
           </div>
         </div>
