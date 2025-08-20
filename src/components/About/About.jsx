@@ -38,7 +38,7 @@ export default function About({ id }) {
             <h3 className={styles.articleTitle}>Upcoming Projects</h3>
             <p className={styles.articleText}>
               I have just completed version 1.0 of my personal dashboard app
-              called
+              called{' '}
               <a href='https://stardweller.vercel.app/' className={styles.link}>
                 Star Dweller
               </a>
@@ -47,6 +47,10 @@ export default function About({ id }) {
               My next project is a data visualisation dashboard of renewable
               energy data. It shall be built with Vite (React), TypeScript,
               Express.js, Chart.js, PostgreSQL and Docker.
+              <br />
+              <br />
+              I will extend the app's functionality with AI to make predictions,
+              and help to search through the data.
               <br />
               <br />
               One of my long-term dreams would be to work in anything that deals
